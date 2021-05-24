@@ -20,7 +20,7 @@ public class MiamiSafariEpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_miami_safari_ep);
 
-        dataList = findViewById(R.id.dataListVerdenaDemotape);
+        dataList = findViewById(R.id.dataList);
         titles = new ArrayList<>();
 
         titles.add("Miami Safari");

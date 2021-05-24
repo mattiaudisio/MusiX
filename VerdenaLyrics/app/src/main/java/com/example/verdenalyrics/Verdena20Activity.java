@@ -20,7 +20,7 @@ public class Verdena20Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verdena20);
 
-        dataList = findViewById(R.id.dataListVerdenaDemotape);
+        dataList = findViewById(R.id.dataList);
         titles = new ArrayList<>();
 
         titles.add("Ovunque");

@@ -20,7 +20,7 @@ public class IlSuicidioDelSamuraiActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_il_suicidio_del_samurai);
 
-        dataList = findViewById(R.id.dataListVerdenaDemotape);
+        dataList = findViewById(R.id.dataList);
         titles = new ArrayList<>();
 
         titles.add("Logorrea (esperti all'opera)");

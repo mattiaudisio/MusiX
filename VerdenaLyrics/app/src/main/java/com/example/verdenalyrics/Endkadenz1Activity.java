@@ -20,7 +20,7 @@ public class Endkadenz1Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_endkadenz1);
 
-        dataList = findViewById(R.id.dataListVerdenaDemotape);
+        dataList = findViewById(R.id.dataList);
         titles = new ArrayList<>();
 
         titles.add("Ho una fissa");

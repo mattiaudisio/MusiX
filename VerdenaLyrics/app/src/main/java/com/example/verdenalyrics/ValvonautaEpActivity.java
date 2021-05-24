@@ -20,7 +20,7 @@ public class ValvonautaEpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_valvonauta_ep);
 
-        dataList = findViewById(R.id.dataListVerdenaDemotape);
+        dataList = findViewById(R.id.dataList);
         titles = new ArrayList<>();
 
         titles.add("Valvonauta");

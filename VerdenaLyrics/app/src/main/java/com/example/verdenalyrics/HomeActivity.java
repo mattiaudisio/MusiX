@@ -90,7 +90,7 @@ public class HomeActivity extends AppCompatActivity {
         //adapter = new AdapterSong(this,titles);
 
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,2,GridLayoutManager.VERTICAL,false);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);
         dataList.setAdapter(adapter);
     }
