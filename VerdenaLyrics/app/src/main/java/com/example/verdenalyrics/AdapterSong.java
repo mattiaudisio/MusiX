@@ -4,14 +4,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.recyclerview.widget.RecyclerView.Adapter;
-import androidx.recyclerview.widget.RecyclerView.ViewHolder;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -22,9 +19,17 @@ public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
     Context context;
     LayoutInflater inflater;
     List<String> titles;
+    List<String> testo;
+    Intent intent;
 
-    public AdapterSong(Context paramContext, List<String> paramList)
-    {
+    public AdapterSong(Context paramContext, List<String> paramList,List<String> testo) {
+        this.titles = paramList;
+        this.testo = testo;
+        this.inflater = LayoutInflater.from(paramContext);
+        this.context = paramContext;
+    }
+
+    public AdapterSong(Context paramContext, List<String> paramList) {
         this.titles = paramList;
         this.inflater = LayoutInflater.from(paramContext);
         this.context = paramContext;
@@ -34,7 +39,7 @@ public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
         return this.titles.size();
     }
 
-    public ViewHolder onCreateViewHolder(ViewGroup paramViewGroup, int paramInt)
+    public @NotNull ViewHolder onCreateViewHolder(@NotNull ViewGroup paramViewGroup, int paramInt)
     {
         View view = inflater.inflate(R.layout.layout_songs,paramViewGroup,false);
         return new ViewHolder(view);
@@ -52,10 +57,9 @@ public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
         public ViewHolder(View paramView) {
             super(paramView);
             title = itemView.findViewById(R.id.textSong);
-            paramView.setOnClickListener(new View.OnClickListener(){
-                public void onClick(View paramAnonymousView){
-
-                }
+            paramView.setOnClickListener(paramAnonymousView -> {
+                intent = new Intent(context , CanzoniActivity.class);
+                context.startActivity(intent);
             });
         }
     }

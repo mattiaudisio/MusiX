@@ -11,17 +11,14 @@ import java.util.List;
 
 public class CanosEpActivity extends AppCompatActivity {
 
-    private RecyclerView dataList;
-    private List<String> titles;
-    private AdapterSong adapter;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_canos_ep);
 
-        dataList = findViewById(R.id.dataList);
-        titles = new ArrayList<>();
+        RecyclerView dataList = findViewById(R.id.dataList);
+        List<String> titles = new ArrayList<>();
+        List<String> testo = new ArrayList<>();
 
         titles.add("Caños");
         titles.add("Malaga");
@@ -30,7 +27,14 @@ public class CanosEpActivity extends AppCompatActivity {
         titles.add("His latest flame (Marie’s the name)");
         titles.add("Fluido");
 
-        adapter = new AdapterSong(this,titles);
+        testo.add("@string/Canos");
+        testo.add("@string/Malaga");
+        testo.add("@string/OraBuia");
+        testo.add("@string/Parabellium");
+        testo.add("@string/HisLatestFlame");
+        testo.add("@string/Fluido");
+
+        AdapterSong adapter = new AdapterSong(this, titles, testo);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);
