@@ -1,15 +1,13 @@
 package com.example.verdenalyrics;
 
-import android.widget.TextView;
-
 public class Canzoni {
-    private TextView testo;
+    private String testo;
 
-    public TextView getTesto() {
+    public String getTesto() {
         return testo;
     }
 
-    public void setTesto(TextView testo) {
+    public void setTesto(String testo) {
         this.testo = testo;
     }
 }

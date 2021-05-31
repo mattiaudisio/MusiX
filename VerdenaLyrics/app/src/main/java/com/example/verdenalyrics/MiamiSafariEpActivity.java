@@ -13,7 +13,7 @@ public class MiamiSafariEpActivity extends AppCompatActivity {
 
     private RecyclerView dataList;
     private List<String> titles;
-    private AdapterSong adapter;
+    private AdapterCanosEp adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class MiamiSafariEpActivity extends AppCompatActivity {
         titles.add("Creepy Smell");
         titles.add("Morbida");
 
-        adapter = new AdapterSong(this,titles);
+        adapter = new AdapterCanosEp(this,titles);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);

@@ -13,7 +13,7 @@ public class VerdenaDemotapeActivity extends AppCompatActivity {
 
     private RecyclerView dataList;
     private List<String> titles;
-    private AdapterSong adapter;
+    private AdapterCanosEp adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +35,7 @@ public class VerdenaDemotapeActivity extends AppCompatActivity {
         titles.add("Blu Ninive");
         titles.add("Omnia 2241");
 
-        adapter = new AdapterSong(this,titles);
+        adapter = new AdapterCanosEp(this,titles);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);

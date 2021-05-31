@@ -13,7 +13,7 @@ public class RequiemActivity extends AppCompatActivity {
 
     private RecyclerView dataList;
     private List<String> titles;
-    private AdapterSong adapter;
+    private AdapterCanosEp adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +39,7 @@ public class RequiemActivity extends AppCompatActivity {
         titles.add("Was?");
         titles.add("Sotto prescrizione del dott. Huxley");
 
-        adapter = new AdapterSong(this,titles);
+        adapter = new AdapterCanosEp(this,titles);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);

@@ -14,7 +14,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
+public class AdapterCanosEp extends RecyclerView.Adapter<AdapterCanosEp.ViewHolder>
 {
     Context context;
     LayoutInflater inflater;
@@ -22,15 +22,9 @@ public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
     List<String> testo;
     Intent intent;
 
-    public AdapterSong(Context paramContext, List<String> paramList,List<String> testo) {
+    public AdapterCanosEp(Context paramContext, List<String> paramList) {
         this.titles = paramList;
         this.testo = testo;
-        this.inflater = LayoutInflater.from(paramContext);
-        this.context = paramContext;
-    }
-
-    public AdapterSong(Context paramContext, List<String> paramList) {
-        this.titles = paramList;
         this.inflater = LayoutInflater.from(paramContext);
         this.context = paramContext;
     }
@@ -46,10 +40,9 @@ public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @NotNull AdapterSong.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull @NotNull AdapterCanosEp.ViewHolder holder, int position) {
         holder.title.setText(titles.get(position));
     }
-
 
 
     public class ViewHolder extends RecyclerView.ViewHolder{
@@ -58,7 +51,24 @@ public class AdapterSong extends RecyclerView.Adapter<AdapterSong.ViewHolder>
             super(paramView);
             title = itemView.findViewById(R.id.textSong);
             paramView.setOnClickListener(paramAnonymousView -> {
-                intent = new Intent(context , CanzoniActivity.class);
+                switch (getAdapterPosition()){
+                    case 0:
+                        intent = new Intent(context , CanzoneCanosActivity.class);
+                        break;
+                    case 1:
+                    case 3:
+                        intent = new Intent(context , CanzoniStrumentaliActivity.class);
+                        break;
+                    case 2:
+                        intent = new Intent(context , CanzoneOraBuiaActivity.class);
+                        break;
+                    case 4:
+                        intent = new Intent(context , CanzoniHisLatestFlameActivity.class);
+                        break;
+                    case 5:
+                        intent = new Intent(context , CanzoneFluidoActivity.class);
+                        break;
+                }
                 context.startActivity(intent);
             });
         }

@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".CanzoniActivity"></activity>
+        <activity android:name=".CanzoneFluidoActivity"></activity>
+        <activity android:name=".CanzoniHisLatestFlameActivity" />
+        <activity android:name=".CanzoneOraBuiaActivity" />
+        <activity android:name=".CanzoneCanosActivity" />
+        <activity android:name=".CanzoniStrumentaliActivity" />
+        <activity android:name=".CanzoniActivity" />
         <activity android:name=".Verdena20Activity" />
         <activity android:name=".Endkadenz2Activity" />
         <activity android:name=".Endkadenz1Activity" />

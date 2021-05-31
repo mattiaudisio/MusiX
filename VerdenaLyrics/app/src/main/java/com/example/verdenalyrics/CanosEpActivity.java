@@ -27,17 +27,11 @@ public class CanosEpActivity extends AppCompatActivity {
         titles.add("His latest flame (Marie’s the name)");
         titles.add("Fluido");
 
-        testo.add("@string/Canos");
-        testo.add("@string/Malaga");
-        testo.add("@string/OraBuia");
-        testo.add("@string/Parabellium");
-        testo.add("@string/HisLatestFlame");
-        testo.add("@string/Fluido");
-
-        AdapterSong adapter = new AdapterSong(this, titles, testo);
+        AdapterCanosEp adapter = new AdapterCanosEp(this, titles);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);
         dataList.setAdapter(adapter);
     }
+
 }

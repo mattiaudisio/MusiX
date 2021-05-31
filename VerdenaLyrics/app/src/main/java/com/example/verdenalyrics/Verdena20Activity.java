@@ -13,7 +13,7 @@ public class Verdena20Activity extends AppCompatActivity {
 
     private RecyclerView dataList;
     private List<String> titles;
-    private AdapterSong adapter;
+    private AdapterCanosEp adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,7 @@ public class Verdena20Activity extends AppCompatActivity {
         titles.add("Piuma");
         titles.add("Shika (Live)");
 
-        adapter = new AdapterSong(this,titles);
+        adapter = new AdapterCanosEp(this,titles);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);

@@ -13,7 +13,7 @@ public class WowActivity extends AppCompatActivity {
 
     private RecyclerView dataList;
     private List<String> titles;
-    private AdapterSong adapter;
+    private AdapterCanosEp adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class WowActivity extends AppCompatActivity {
         titles.add("La volta");
         titles.add("Lei disse (Un mondo del tutto differente)");
 
-        adapter = new AdapterSong(this,titles);
+        adapter = new AdapterCanosEp(this,titles);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);
         dataList.setLayoutManager(gridLayoutManager);

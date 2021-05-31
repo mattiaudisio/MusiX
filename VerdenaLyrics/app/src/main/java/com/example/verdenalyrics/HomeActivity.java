@@ -18,7 +18,7 @@ public class HomeActivity extends AppCompatActivity {
     private List<String> dates;
     private List<Integer> images;
     private AdapterHome adapter;
-    //private AdapterSong adapter;
+    //private AdapterCanosEp adapter;
 
 
     @Override
@@ -87,7 +87,7 @@ public class HomeActivity extends AppCompatActivity {
         dates.add("2019");
 
         adapter = new AdapterHome(this,titles,images,dates);
-        //adapter = new AdapterSong(this,titles);
+        //adapter = new AdapterCanosEp(this,titles);
 
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this,1,GridLayoutManager.VERTICAL,false);

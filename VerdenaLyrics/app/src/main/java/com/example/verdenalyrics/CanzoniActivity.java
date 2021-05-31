@@ -10,6 +10,7 @@ public class CanzoniActivity extends AppCompatActivity {
 
     TextView testo;
     Button btnAscolta;
+    Canzoni canzoni;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class CanzoniActivity extends AppCompatActivity {
 
         testo = findViewById(R.id.TestoCanzone);
         btnAscolta = findViewById(R.id.btnAscolta);
+        testo.setText(canzoni.getTesto());
     }
 
 }
