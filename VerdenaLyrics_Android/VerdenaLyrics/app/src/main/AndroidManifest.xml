@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.verdenalyrics">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".CanzoneFluidoActivity"></activity>
+        <activity android:name=".CanzoniHisLatestFlameActivity" />
+        <activity android:name=".CanzoneOraBuiaActivity" />
+        <activity android:name=".CanzoneCanosActivity" />
+        <activity android:name=".CanzoniStrumentaliActivity" />
+        <activity android:name=".CanzoniActivity" />
+        <activity android:name=".Verdena20Activity" />
+        <activity android:name=".Endkadenz2Activity" />
+        <activity android:name=".Endkadenz1Activity" />
+        <activity android:name=".WowActivity" />
+        <activity android:name=".RequiemActivity" />
+        <activity android:name=".IlSuicidioDelSamuraiActivity" />
+        <activity android:name=".SoloUnGrandeSassoActivity" />
+        <activity android:name=".VerdenaActivity" />
+        <activity android:name=".RadarActivity" />
+        <activity android:name=".CanosEpActivity" />
+        <activity android:name=".LunaEpActivity" />
+        <activity android:name=".ElefanteEpActivity" />
+        <activity android:name=".MiamiSafariEpActivity" />
+        <activity android:name=".SpacemanEpActivity" />
+        <activity android:name=".VibaEpActivity" />
+        <activity android:name=".ValvonautaEpActivity" />
+        <activity android:name=".VerdenaDemotapeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
