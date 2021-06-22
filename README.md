@@ -1,3 +1,1 @@
 # VerdenaLyrics
-
-PROGETTO NON COMPLETATO
