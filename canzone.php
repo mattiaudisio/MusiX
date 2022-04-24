@@ -57,14 +57,14 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">Verdena Lyrics</a></h1>
+      <h1 class="logo mr-auto"><a href="index.php">Verdena Lyrics</a></h1>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="../index.html">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#discografia">Discografia</a></li>
-          <li><a href="index.html#membri">Membri</a></li>
+          <li class="active"><a href="../index.php">Home</a></li>
+          <li><a href="index.php#about">About</a></li>
+          <li><a href="index.php#discografia">Discografia</a></li>
+          <li><a href="index.php#membri">Membri</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
