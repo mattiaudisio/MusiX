@@ -115,7 +115,7 @@
                       <span>'. $i + 1 .'</span>
                       <h4><a href="../canzoni/verbena/froggseggs.html">'.$arrayCanzoni[$i]->getNomeCanzone().'</a></h4>
                       <p>Written by '.$arrayCanzoni[$i]->getWrittenBy().'</p>
-                      <p>Produced by '.$arrayCanzoni[$i]->getProducedBy().'</p>
+                        <p>Produced by '.$arrayCanzoni[$i]->getProducedBy().'</p>
                     </div>
                   </div>';
             }
