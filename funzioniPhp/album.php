@@ -5,13 +5,15 @@
     public $tipoAlbum = "";
     public $annoUscita = "";
     public $immagineAlbum = "";
+    public $testoAlbum = "";
 
-    public function __construct($idAlbum,$nomeAlbum,$tipoAlbum,$annoUscita,$immagineAlbum){
+    public function __construct($idAlbum,$nomeAlbum,$tipoAlbum,$annoUscita,$immagineAlbum,$testoAlbum){
       $this->idAlbum = $idAlbum;
       $this->nomeAlbum = $nomeAlbum;
       $this->tipoAlbum = $tipoAlbum;
       $this->annoUscita = $annoUscita;
       $this->immagineAlbum = $immagineAlbum;
+      $this->testoAlbum = $testoAlbum;
     }
 
     public function getIdAlbum(){
@@ -32,6 +34,10 @@
 
     public function getImmagineAlbum(){
       return $this->immagineAlbum;
+    }
+
+    public function getTestoAlbum(){
+      return $this->testoAlbum;
     }
   }
  ?>

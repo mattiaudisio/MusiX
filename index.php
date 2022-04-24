@@ -104,8 +104,8 @@
           for ($i=0; $i < count($arrayAlbum); $i++) {
             echo '<div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
               <div class="member">
-                <img src="assets/img/discografia/'.$arrayAlbum[$i]->getImmagineAlbum().'" alt="">
-                <h4><a href="album/vibaep.html">'.$arrayAlbum[$i]->getNomeAlbum().'</a></h4>
+                <a href="album.php?id='.$arrayAlbum[$i]->getIdAlbum().'"><img src="assets/img/discografia/'.$arrayAlbum[$i]->getImmagineAlbum().'" alt="">
+                <h4>'.$arrayAlbum[$i]->getNomeAlbum().'</a></h4>
                 <span>'.$arrayAlbum[$i]->getTipoAlbum().', '.$arrayAlbum[$i]->getAnnoUscita().'</span>
               </div>
             </div>';
