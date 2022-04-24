@@ -59,4 +59,151 @@ INSERT INTO Canzone(idCanzone,nomeCanzone,testoCanzone,writtenBy,producedBy,link
   ('C08','Wonder','Lyrics for this song have yet to be released','Alberto Ferrari','Luca Ferrari & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/xp0ktn1FjVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A01'),
   ('C09','Leasy Creep','Lyrics for this song have yet to be released','Alberto Ferrari','Luca Ferrari & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/47xBy8kcmJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A01'),
   ('C10','Porno Dolls Rubber','Lyrics for this song have yet to be released','Alberto Ferrari','Luca Ferrari & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/47xBy8kcmJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A01'),
-  ('C11','Velvet','Lyrics for this song have yet to be released','Alberto Ferrari','Luca Ferrari & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/ayLc1-oCkD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A01');
+  ('C11','Velvet','Lyrics for this song have yet to be released','Alberto Ferrari','Luca Ferrari & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/ayLc1-oCkD8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A01'),
+  ('C12','Fuxia','Eroina fertile<br />Vincerai tu<br />Suicida isterico<br />Dove sei?<br />Curami<br />Curami<br />Adesso no<br /><br />Io che non so<br />Più dove andrò<br />Pure se vuoi<br />Ma io non lo so<br />Dove sei<br /><br />Voglio e posso perdere<br />Vincerai tu<br />Sangue in seno voli via<br />Lavami lì<br />Curami<br />Curami<br />Ancora un pò<br /><br />Io che non so<br />Più dove andrò<br />Pure se puoi<br />Ma io non lo so<br />Non lo so<br />Non lo so<br /><br />Dove sei (x17)','Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/3mG4XIoHUb4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C13','Fiato Adolescenziale','Eh, scimmie, non mi frega vivere<br />Succhiandomi, io non devo esigere<br />Carne, bamboline stitiche<br />Cullandomi, io non devo esigere<br />Guardami come sei<br />Io non so più perdere<br />Guardami come puoi<br />Io amavo le mie<br />Scimmie, grandi mani su di me<br />Mangimi, crollo e penso solo a me<br />Guardami come sei<br />Io non so più perdere<br />Guardami come puoi<br />Io non so più perdere<br />Eh<br />Dovrei, fuori me<br />Fuori me<br />Fuori me<br />Fuori me<br />Uh, uhuh, la la<br />Eh, ihih, la la<br />Uh, uhuh, lala, mi<br />Scimmie, non mi frega vivere<br />Succhiandomi, io non devo esigere<br />Carne, bamboline stitiche<br />Cullandomi, io non devo ridere<br />Guardami come sei<br />Io non so più perdere<br />Guardami come puoi<br />Io non so più perdere<br />Eh<br />Ehi, fuori me<br />Fuori me<br />Fuori me<br />Fuori me<br />Fuori me<br />Fuori me<br />Fuori me<br />Fuori me<br />Uh, uhuh, la la<br />Eh, ihih, la la<br />Uh, uhuh, lala, mi','Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/MQFdV7qFk-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C14','Nella Schiuma',"Come vuoi starò fuori e dentro me<br />Puoi convincere le mie labbra perdersi<br />Le mie labbra perdersi<br />Rose lesbiche posso credere<br />Rubi ma non sei carne giovane<br />Come vuoi sarò l'ombra dei miei guai<br />Fiori in foglie e poi scopi labbra e fiori blu<br />Scopi labbra e fiori blu<br />Rose lesbiche posso credere<br />Rubi ma non sei carne giovane<br />Verbena (x8)",'Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/dpQ58cQ16zw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C15','Zoe','Io non dormo mai<br />
+          Dormo in me<br />
+          Scuse solide<br />
+          La mia immagine<br />
+          Non sono io<br />
+          Sento ridere<br /><br />
+          Vorrei credere<br />
+          Che non ci sei<br />
+          Nelle lacrime<br />
+          Forse tu ci sei<br />
+          Ma non ci sei<br />
+          Vorrei spegnermi<br /><br />
+          Io non dormo mai<br />
+          E so<br />
+          Scuse ruvide<br />
+          La mia vanità<br />
+          Non sono io<br />
+          Sento ridere<br /><br />
+          Vorrei credere<br />
+          Che non ci sei<br />
+          Nelle lacrime<br />
+          Forse tu ci sei<br />
+          Ma non ci sei<br />
+          Vorrei spegnermi<br /><br />
+          Uuaaaaaaaaaaaaaah Zoe<br />
+          Uuaaaaaaaaaaaaaah Zoe<br />
+          Uuaaaaaaaaaaaaaah Zoe<br />
+          Uuaaaaaaaaaaaaaah Zoe<br /><br />
+          Vorrei credere<br />
+          Che non ci sei<br />
+          Nelle lacrime<br />
+          Forse tu ci sei<br />
+          Ma non ci sei<br />
+          Vorrei spegnermi<br /><br />
+          Su di te<br />
+          Te<br />
+          Te<br />
+          Te<br />','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','Giorgio Canali & Verdena','<iframe width="560" height="315" src="https://www.youtube.com/embed/oxTqxBV4trw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C16','Bambina In Nero',"Lei si consuma su di me<br />
+          Lei si nasconde ma non so dov'è<br />
+          Con le tue ali in coma stai<br />
+          Lei non ha tempo Io non so perché<br />
+          Perché<br /><br />
+          E tu sei sola<br />
+          E tu sei sola<br /><br />
+          Lei si consuma su di me<br />
+          Lei si consuma lenta dentro me<br />
+          Con le tue mani in coma stai<br />
+          Lei non ha tempo io non so perché<br />
+          Perché<br /><br />
+          E tu sei sola<br />
+          E tu sei sola<br />
+          Tu sei sola<br />
+          E tu sei sola",'Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','Giorgio Canali & Verdena','<iframe width="560" height="315" src="https://www.youtube.com/embed/MldsAdfQNFk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C17','Mormorio mucoso','Come sai puoi vincere<br />
+          Così guardami so fingere<br />
+          Come sai non ho fame<br />
+          Come vuoi lo so non fa male<br /><br />
+          Guardami puoi fendere<br />
+          Voli dentro me so fingere<br />
+          Come sai non ho fame<br />
+          Come vuoi lo so non fa male<br /><br />
+          Come sai non ho fame<br />
+          Come vuoi lo so non fa male<br />
+          Come sai qui sto bene<br />
+          Legami se vuoi non fa male','Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/0chWanAJo5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C18','Memo Box',"Occhi neri tremano... dove andrò?<br />
+          Labbra in culo chiamami... ti troverò!<br />
+          Troverò ahh<br /><br />
+          Padre infanga l'anima... vado via<br />
+          Cerco, soffro e muoio io... madre mia<br /><br />
+          Dimmi che x3<br />
+          Dimmi che non hai paura<br />
+          Come me<br />
+          Dimmi che<br />
+          Dimmi che non hai paura<br /><br />
+          Pauraa ahhh<br /><br />
+          Cielo in freddo coprimi... dove sei?<br />
+          La bocca è calda baciami<br />
+          Morirei<br /><br />
+          Dimmi che x3<br />
+          Dimmi che non hai paura<br />
+          Come me<br />
+          Dimmi che<br />
+          Dimmi che non hai paura<br /><br />
+          WWWAAAAAAAA<br />
+          WWWAAAAAAAA<br />
+          WWAAAAAAA<br />
+          Dimmi che x3<br />
+          Dimmi che non hai paura<br />
+          Come me<br />
+          Dimmi che<br />
+          Dimmi che non hai paura<br /><br />
+          Pauraa ahhhua",'Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/v1CIzQ994hw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C19','Sara',"Sara, le tue lacrime sono nuvole<br />
+          Oh no le tue rughe sai sono lacrime<br />
+          Ah-ha, sono fuori ma, ma perchè vai là?<br />
+          Oh no tu puoi dirmelo sono inutile<br /><br />
+          Tu mi spegni<br />
+          E nuda bevi, tu<br />
+          Tu mi spremi<br />
+          E nuda bevi, tu<br /><br />
+          Tu sei, solo tu non sei<br />
+          Tu sei l'unica<br />
+          Spari tuoni di su di me siano come sai<br /><br />
+          Tu mi spegni<br />
+          E nuda bevi, tu<br />
+          Tu mi spremi<br />
+          E nuda bevi, tu<br /><br />
+          Tu mi spegni<br />
+          E nuda bevi, tu<br />
+          Tu mi spremi<br />
+          E nuda bevi, tu",'Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/bf0k3GvqLpQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C20','Bevimi',"Fuori piove e poi il culo è vergine<br />
+          Fuori piove ma so chi sei<br />
+          Seno fragile, tu il crimine<br />
+          Fuori piove ma so chi sei!<br /><br />
+          Oh no, oh no, oh no<br />
+          Oh no, oh no, oh no<br />
+          Bevimi, so chi sei<br />
+          Bevimi, so chi sei<br /><br />
+          Padri vigili, culle simili<br />
+          Fuori piove ma so chi sei<br />
+          Muore l'argine, brucia bene in me<br />
+          Fuori piove ma so chi sei<br /><br />
+          Oh no, oh no, oh no<br />
+          Oh no, oh no, oh no<br />
+          Bevimi, so chi sei<br />
+          Bevimi, so chi sei",'Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/myP53lzZXTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C21','Blu Ninive','Io qui vincibile, ma tu sei qui<br />
+          Con me in lacrime, inculami<br />
+          Ah yeah!<br /><br />
+          In me non credo che, più giù oh sì<br />
+          Oh no, non crescere, inculami<br /><br />
+          No tu non puoi<br />
+          Mi lasci e poi vai<br />
+          Waah! Yeah!<br /><br />
+          Io qui vincibile, ma tu sei qui<br />
+          Con me in lacrime, inculami<br /><br />
+          No tu non puoi<br />
+          Mi lasci e poi vai<br />
+          Waah! Yeah!<br />
+          Ah yeah!','Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/GfBEpfBT5sY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02'),
+  ('C22','Omnia 2241','[Instrumental]','Alberto Ferrari','Luca Ferrari, Roberta Sammarelli & Alberto Ferrari','<iframe width="560" height="315" src="https://www.youtube.com/embed/jD3DlL9Ox98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>','A02');
