@@ -7,7 +7,7 @@
   $arrayAlbum = array();
   $query = $connessione->query("SELECT * FROM album;");
   while ($ris = $query->fetch_assoc()) {
-    $nuovoAlbum = new Album($ris["idAlbum"],$ris["nomeAlbum"],$ris["tipoAlbum"],$ris["annoUscita"],$ris["immagineAlbum"]);
+    $nuovoAlbum = new Album($ris["idAlbum"],$ris["nomeAlbum"],$ris["tipoAlbum"],$ris["annoUscita"],$ris["immagineAlbum"],$ris["noteAlbum"]);
     array_push($arrayAlbum,$nuovoAlbum);
   }
 ?>

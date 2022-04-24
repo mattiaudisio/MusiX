@@ -52,14 +52,14 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="../index.html">Verdena Lyrics</a></h1>
+      <h1 class="logo mr-auto"><a href="../index.php">Verdena Lyrics</a></h1>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="../index.html">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#discografia">Discografia</a></li>
-          <li><a href="index.html#membri">Membri</a></li>
+          <li class="active"><a href="../index.php">Home</a></li>
+          <li><a href="index.php#about">About</a></li>
+          <li><a href="index.php#discografia">Discografia</a></li>
+          <li><a href="index.php#membri">Membri</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -105,7 +105,7 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>01</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/sullelabbra.html">Sulle labbra</a></h4>
+              <h4><a href="../canzoni/afterhoursvsverdena/sullelabbra.php">Sulle labbra</a></h4>
               <p>Written by Afterhours</p>
             </div>
           </div>
@@ -113,7 +113,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
               <span>02</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/vogliounapellesplendida.html">Voglio una pelle splendida</a></h4>
+              <h4><a href="../canzoni/afterhoursvsverdena/vogliounapellesplendida.php">Voglio una pelle splendida</a></h4>
               <p>Written by Afterhours</p>
             </div>
           </div>
@@ -121,7 +121,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span>03</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/maledimiele.html">Male di miele</a></h4>
+              <h4><a href="../canzoni/afterhoursvsverdena/maledimiele.php">Male di miele</a></h4>
               <p>Written by Afterhours</p>
             </div>
           </div>
@@ -129,7 +129,7 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>04</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/nonepersempre.html">Non è per sempre</a></h4>
+              <h4><a href="../canzoni/afterhoursvsverdena/nonepersempre.php">Non è per sempre</a></h4>
               <p>Written by Afterhours</p>
             </div>
           </div>
@@ -137,7 +137,7 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>05</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/dentromarilyn.html">Dentro Marilyn</a></h4>
+              <h4><a href="../canzoni/afterhoursvsverdena/dentromarilyn.php">Dentro Marilyn</a></h4>
               <p>Written by Afterhours</p>
             </div>
           </div>
@@ -145,7 +145,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
               <span>06</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/tuttofaunpomale.html">Tutto fa un pò male</a></h4>
+              <h4><a href="../canzoni/afterhoursvsverdena/tuttofaunpomale.php">Tutto fa un pò male</a></h4>
               <p>Written by Afterhours</p>
             </div>
           </div>
@@ -153,7 +153,7 @@
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span>07</span>
-              <h4><a href="../canzoni/soloungrandesasso/nelmioletto.html">Nel mio letto</a></h4>
+              <h4><a href="../canzoni/soloungrandesasso/nelmioletto.php">Nel mio letto</a></h4>
               <p>Written by Verdena</p>
             </div>
           </div>
@@ -161,7 +161,7 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>08</span>
-              <h4><a href="../canzoni/verdena/ovunque.html">Ovunque (live)</a></h4>
+              <h4><a href="../canzoni/verdena/ovunque.php">Ovunque (live)</a></h4>
               <p>Written by Verdena</p>
             </div>
           </div>
@@ -169,7 +169,7 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>09</span>
-              <h4><a href="../canzoni/soloungrandesasso/meduseetappeti.html">Meduse e tappeti (live) </a></h4>
+              <h4><a href="../canzoni/soloungrandesasso/meduseetappeti.php">Meduse e tappeti (live) </a></h4>
               <p>Written by Verdena</p>
             </div>
           </div>
