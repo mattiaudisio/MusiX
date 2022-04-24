@@ -6,15 +6,9 @@
   $connessione = Connessione::apriConnessione();
 
   if(isset($_GET['id'])){
-    $arrayCanzoni = array();
-    $query = $connessione->query("SELECT * FROM album WHERE album.idAlbum = '".$_GET['id']."';");
+    $query = $connessione->query("SELECT * FROM canzone WHERE canzone.idCanzone = '".$_GET['id']."';");
     while ($ris = $query->fetch_assoc()) {
-      $nuovoAlbum = new Album($ris["idAlbum"],$ris["nomeAlbum"],$ris["tipoAlbum"],$ris["annoUscita"],$ris["immagineAlbum"],$ris["noteAlbum"]);
-    }
-    $query = $connessione->query("SELECT * FROM canzone WHERE canzone.idAlbum = '".$_GET['id']."';");
-    while ($ris = $query->fetch_assoc()) {
-      $nuovaCanzone = new Canzone($ris["idCanzone"],$ris["nomeCanzone"],"",$ris["writtenBy"],$ris["producedBy"],"",$ris["idAlbum"]);
-      array_push($arrayCanzoni,$nuovaCanzone);
+      $nuovaCanzone = new Canzone($ris["idCanzone"],$ris["nomeCanzone"],$ris["testoCanzone"],$ris["writtenBy"],$ris["producedBy"],$ris["linkVideo"],$ris["idAlbum"]);
     }
   } else {
   header('location:index.php#discografia');
@@ -26,30 +20,35 @@
 <head>
   <meta charset="utf-8">
   <meta name="keywords" content="verdena, rock, alternative">
+  <meta content="Afterhours - Dentro Marilyn" name="description">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Verdena album compilation: Afterhours versus Verdena" name="description">
 
-  <title><?php echo $nuovoAlbum->getNomeAlbum();?></title>
+  <title><?php echo $nuovaCanzone->getNomeCanzone()?></title>
+
+  <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <style>
-    a:hover {
-      color: #fff;
-      text-decoration: none;
-    }
-  </style>
+  <!-- =======================================================
+  * Template Name: Day - v2.2.1
+  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -58,14 +57,14 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="../index.php">Verdena Lyrics</a></h1>
+      <h1 class="logo mr-auto"><a href="index.html">Verdena Lyrics</a></h1>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="../index.php">Home</a></li>
-          <li><a href="index.php#about">About</a></li>
-          <li><a href="index.php#discografia">Discografia</a></li>
-          <li><a href="index.php#membri">Membri</a></li>
+          <li class="active"><a href="../index.html">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#discografia">Discografia</a></li>
+          <li><a href="index.html#membri">Membri</a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -81,47 +80,24 @@
 
   <main>
 
-    <!-- ======= About Section ======= -->
-    <section class="about">
+    <section id="services" class="services">
       <div class="container">
 
-        <div class="row">
-          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <?php
-              echo '<img src="assets/img/discografia/'.$nuovoAlbum->getImmagineAlbum().'" class="img-fluid" alt="" style="width: 400px; height: 400px">';
-            ?>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
-            <h3><?php echo $nuovoAlbum->getNomeAlbum();?></h3>
-            <p class="font-italic">
-              <?php echo $nuovoAlbum->getTestoAlbum();?>
-            </p>
-          </div>
+        <div class="section-title" style="padding-bottom: 50px;">
+          <span><?php echo $nuovaCanzone->getNomeCanzone()?></span>
+          <h2><?php echo $nuovaCanzone->getNomeCanzone()?></h2>
+          <p  class="font-italic"><?php echo $nuovaCanzone->getTestoCanzone()?></p>
+        </div>
+        <div class="section-title" >
+          <span>Video</span>
+          <h2>Video</h2>
+          <?php echo $nuovaCanzone->getLinkVideo()?>
+        </div>
+
         </div>
 
       </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
-
-        <div class="row">
-
-          <?php
-            for ($i=0; $i < count($arrayCanzoni); $i++) {
-              echo '<div class="col-lg-4" data-aos="fade-up">
-                    <div class="box">
-                      <span>'. $i + 1 .'</span>
-                      <h4><a href="canzone.php?id='.$arrayCanzoni[$i]->getIdCanzone().'">'.$arrayCanzoni[$i]->getNomeCanzone().'</a></h4>
-                      <p>Written by '.$arrayCanzoni[$i]->getWrittenBy().'</p>
-                        <p>Produced by '.$arrayCanzoni[$i]->getProducedBy().'</p>
-                    </div>
-                  </div>';
-            }
-          ?>
-      </div>
-    </section><!-- End Why Us Section -->
+    </section>
 
   </main><!-- End #main -->
 
