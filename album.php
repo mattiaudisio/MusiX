@@ -1,14 +1,20 @@
 <?php
   include_once(__DIR__.'/funzioniPhp/connessione.php');
   include_once(__DIR__.'/funzioniPhp/album.php');
+  include_once(__DIR__.'/funzioniPhp/canzone.php');
 
   $connessione = Connessione::apriConnessione();
 
   if(isset($_GET['id'])){
-    $arrayAlbum = array();
+    $arrayCanzoni = array();
     $query = $connessione->query("SELECT * FROM album WHERE album.idAlbum = '".$_GET['id']."';");
     while ($ris = $query->fetch_assoc()) {
       $nuovoAlbum = new Album($ris["idAlbum"],$ris["nomeAlbum"],$ris["tipoAlbum"],$ris["annoUscita"],$ris["immagineAlbum"],$ris["noteAlbum"]);
+    }
+    $query = $connessione->query("SELECT * FROM canzone WHERE canzone.idAlbum = '".$_GET['id']."';");
+    while ($ris = $query->fetch_assoc()) {
+      $nuovaCanzone = new Canzone($ris["idCanzone"],$ris["nomeCanzone"],"",$ris["writtenBy"],$ris["producedBy"],"",$ris["idAlbum"]);
+      array_push($arrayCanzoni,$nuovaCanzone);
     }
   } else {
   header('location:index.php#discografia');
@@ -38,12 +44,12 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Day - v2.2.1
-  * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -102,77 +108,18 @@
 
         <div class="row">
 
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>01</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/sullelabbra.php">Sulle labbra</a></h4>
-              <p>Written by Afterhours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="box">
-              <span>02</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/vogliounapellesplendida.php">Voglio una pelle splendida</a></h4>
-              <p>Written by Afterhours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <span>03</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/maledimiele.php">Male di miele</a></h4>
-              <p>Written by Afterhours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>04</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/nonepersempre.php">Non è per sempre</a></h4>
-              <p>Written by Afterhours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>05</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/dentromarilyn.php">Dentro Marilyn</a></h4>
-              <p>Written by Afterhours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="box">
-              <span>06</span>
-              <h4><a href="../canzoni/afterhoursvsverdena/tuttofaunpomale.php">Tutto fa un pò male</a></h4>
-              <p>Written by Afterhours</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <span>07</span>
-              <h4><a href="../canzoni/soloungrandesasso/nelmioletto.php">Nel mio letto</a></h4>
-              <p>Written by Verdena</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>08</span>
-              <h4><a href="../canzoni/verdena/ovunque.php">Ovunque (live)</a></h4>
-              <p>Written by Verdena</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up">
-            <div class="box">
-              <span>09</span>
-              <h4><a href="../canzoni/soloungrandesasso/meduseetappeti.php">Meduse e tappeti (live) </a></h4>
-              <p>Written by Verdena</p>
-            </div>
-          </div>
+          <?php
+            for ($i=0; $i < count($arrayCanzoni); $i++) {
+              echo '<div class="col-lg-4" data-aos="fade-up">
+                    <div class="box">
+                      <span>'. $i + 1 .'</span>
+                      <h4><a href="../canzoni/verbena/froggseggs.html">'.$arrayCanzoni[$i]->getNomeCanzone().'</a></h4>
+                      <p>Written by '.$arrayCanzoni[$i]->getWrittenBy().'</p>
+                      <p>Produced by '.$arrayCanzoni[$i]->getProducedBy().'</p>
+                    </div>
+                  </div>';
+            }
+          ?>
       </div>
     </section><!-- End Why Us Section -->
 
