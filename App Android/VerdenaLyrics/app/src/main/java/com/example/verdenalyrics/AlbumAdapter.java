@@ -35,7 +35,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
     @Override
     public void onBindViewHolder(@NonNull AlbumAdapter.MyViewHolder holder, int position) {
         holder.nomeAlbum.setText(arrayCanzoni.get(position).getAlbum());
-        holder.tipoAlbum.setText(arrayCanzoni.get(position).getTipo() + " | " + arrayCanzoni.get(position).getData());
+        holder.tipoAlbum.setText(arrayCanzoni.get(position).getTipo() + "\n" + arrayCanzoni.get(position).getData());
         holder.imgAlbum.setImageResource(arrayCanzoni.get(position).getAlbumPhoto());
     }
 
@@ -52,6 +52,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
             super(itemView);
             imgAlbum = itemView.findViewById(R.id.imgAlbum);
             nomeAlbum = itemView.findViewById(R.id.albumNome);
+            nomeAlbum.setSelected(true);
             tipoAlbum = itemView.findViewById(R.id.tipoAlbumAnno);
             ArrayList<Canzone> arrayCanzoni = new ArrayList<>();
             itemView.setOnClickListener(v -> {

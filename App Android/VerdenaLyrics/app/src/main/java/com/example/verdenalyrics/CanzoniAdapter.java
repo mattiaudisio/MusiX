@@ -51,6 +51,7 @@ public class CanzoniAdapter extends RecyclerView.Adapter<CanzoniAdapter.MyViewCa
         public MyViewCanzoniHolder(@NonNull View itemView) {
             super(itemView);
             this.titolo = itemView.findViewById(R.id.textSong);
+            this.titolo.setSelected(true);
         }
     }
 }

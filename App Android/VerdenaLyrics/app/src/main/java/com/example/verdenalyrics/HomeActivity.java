@@ -39,7 +39,7 @@ public class HomeActivity extends AppCompatActivity {
         canzoniArrayList.add(new Album("Verdena (20th Anniversary Remastered Edition)","2019", "Album",R.drawable.verdena20));
         canzoniArrayList.add(new Album("AMERICA LATINA (music inspired by the film) ","2022", "Colonne sonore",R.drawable.americalatina));
         AlbumAdapter adapter = new AlbumAdapter(this,canzoniArrayList);
-        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this,1, RecyclerView.VERTICAL,false);
+        RecyclerView.LayoutManager layoutManager = new GridLayoutManager(this,3, RecyclerView.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(adapter);
