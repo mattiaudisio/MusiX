@@ -56,6 +56,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
             tipoAlbum = itemView.findViewById(R.id.tipoAlbumAnno);
             ArrayList<Canzone> arrayCanzoni = new ArrayList<>();
             itemView.setOnClickListener(v -> {
+                arrayCanzoni.clear();
                 switch (getAdapterPosition()){
                     case 0:
                         arrayCanzoni.add(new Canzone("Took your name","Lyrics for this song have yet to be released"));
@@ -2704,33 +2705,372 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                         arrayCanzoni.add(new Canzone("Fluido","Paradiso enorme\nNessuno può capirmi più\nE non so darmi più risposte\nGesù\n\nAl buio il fiume non c'è\nIl fiume al buio non si vede\nIncolla i fiori nella sabbia\nGesù\nGesù\nGesù\nGesù\n\nOra è meglio, ora nuoto\nSicuramente come non crederai\nAh, ah"));
                         break;
                     case 14:
-                        arrayCanzoni.add(new Canzone("Scegli me (Un mondo che tu non vuoi)",""));
-                        arrayCanzoni.add(new Canzone("Loniterp",""));
-                        arrayCanzoni.add(new Canzone("Per sbaglio",""));
-                        arrayCanzoni.add(new Canzone("Mi coltivo",""));
-                        arrayCanzoni.add(new Canzone("Razzi arpia inferno e fiamme",""));
+                        arrayCanzoni.add(new Canzone("Scegli me (Un mondo che tu non vuoi)","Scegli me\n" +
+                                "Io non posso credere\n" +
+                                "Di averti qui con me\n" +
+                                "In un mondo che tu non vuoi\n" +
+                                "E mentre parlo\n" +
+                                "Rispondi ad ogni mio perché\n" +
+                                "Riscoprirò chi sei\n" +
+                                "\n" +
+                                "Provo a fingere\n" +
+                                "Per lei io mi deflagrerei\n" +
+                                "Non mi senti ed io non parlo\n" +
+                                "Rimangono le nuvole\n" +
+                                "Siamo un giorno senza luce ormai\n" +
+                                "Ma scegli me\n" +
+                                "Un giorno senza luce ormai\n"));
+                        arrayCanzoni.add(new Canzone("Loniterp","Sparirò come senza rimpianti\nJennifer saltà giù\nTriste sorte, il mio treno galoppa\nI raggi ormai c'inseguono\nCosa vuoi? Siamo scimmie terrestri\nFa bene all'immagine\nTriste a volte come solo l'inferno è\nLa mia civiltà è sensibile\n\nE so che mi spingerai\nDove tu non sei più\n\nMa ti vedo qui rinchiusa in me\nMa ti vedo qui rinchiusa in me\nE ti vedo qui rinchiusa in me\nChiusa in me\n\nTu lo sai, siamo piume nel vento\nTi prende e non torni più\nSarà che la mia mente galoppa\nE i raggi ormai c'inseguono"));
+                        arrayCanzoni.add(new Canzone("Per sbaglio","Era un acido\n" +
+                                "Sale in noi\n" +
+                                "Forse in un caffè, più di un'ora fa\n" +
+                                "Sale in noi\n" +
+                                "E non vedi più la realtà\n" +
+                                "\n" +
+                                "Di colpo si regge in me\n" +
+                                "Così impensabile non è più\n" +
+                                "Tu non ti chiedere perché\n" +
+                                "La vera immagine non è qui\n" +
+                                "\n" +
+                                "Più ti guardo e più mi sembra impossibile\n" +
+                                "Che stai con me\n" +
+                                "Non esisto e non ci sono\n" +
+                                "Se fossi te io me ne andrei\n"));
+                        arrayCanzoni.add(new Canzone("Mi coltivo","Cresco e sono nei guai\n" +
+                                "Proprio qui, fra le briciole e niente più\n" +
+                                "Stai e sei qui\n" +
+                                "Sei wow, vivi per me, fai così\n" +
+                                "Fra le briciole e niente più\n" +
+                                "Stai e sei qui\n" +
+                                "\n" +
+                                "È la sorte, credi in me o no?\n" +
+                                "Sì, capisco, so bene che lo farò\n" +
+                                "E fisso al mondo mi rianimerò\n" +
+                                "\n" +
+                                "Cresco e il caos è sempre qui\n" +
+                                "Fra le briciole e niente più\n" +
+                                "Stai e sei qui, stai e sei qui\n" +
+                                "\n" +
+                                "È la sorte, ci credi è qui che dormirò\n" +
+                                "Sì, capisco, sai bene che lo farò\n" +
+                                "Fisso al mondo\n" +
+                                "Io dopotutto mi rianimerò\n" +
+                                "Mi coltiverò, continuerò\n" +
+                                "Mi rianimerò, coltiverò\n"));
+                        arrayCanzoni.add(new Canzone("Razzi arpia inferno e fiamme","Non vivo in me\n" +
+                                "Non so chi sei\n" +
+                                "Denti per tre io non ho più\n" +
+                                "Mi acciglierò\n" +
+                                "\n" +
+                                "Dosi mai più, rimani giù\n" +
+                                "Forse a Gesù non crederei\n" +
+                                "Se fosse qua\n" +
+                                "L'inferno in me\n" +
+                                "Va in fiamme ormai\n" +
+                                "\n" +
+                                "Razzi, arpie, danni miei\n" +
+                                "Più che mai danni miei\n" +
+                                "Pause nel tempo riavrai\n" +
+                                "Mentre la mente è in orbita\n"));
                         arrayCanzoni.add(new Canzone("Adoratorio","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Miglioramento",""));
-                        arrayCanzoni.add(new Canzone("Il nulla di O.",""));
-                        arrayCanzoni.add(new Canzone("Lui gareggia",""));
-                        arrayCanzoni.add(new Canzone("Le scarpe volanti",""));
-                        arrayCanzoni.add(new Canzone("Castelli per aria",""));
-                        arrayCanzoni.add(new Canzone("Sorriso in spiaggia pt. 1",""));
-                        arrayCanzoni.add(new Canzone("Sorriso in spiaggia pt. 2",""));
-                        arrayCanzoni.add(new Canzone("Attonito",""));
-                        arrayCanzoni.add(new Canzone("È solo lunedì",""));
-                        arrayCanzoni.add(new Canzone("Tu e me",""));
-                        arrayCanzoni.add(new Canzone("Badea blues",""));
-                        arrayCanzoni.add(new Canzone("Nuova luce",""));
-                        arrayCanzoni.add(new Canzone("Grattacielo",""));
-                        arrayCanzoni.add(new Canzone("A Capella","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Rossella roll over",""));
-                        arrayCanzoni.add(new Canzone("Canzone ostinata",""));
+                        arrayCanzoni.add(new Canzone("Miglioramento","Ora puoi, il fisico ce l'hai\n" +
+                                "Per fare la rivoluzione che aspetto\n" +
+                                "Niente dirò e tu non capirai\n" +
+                                "Affronta la rivoluzione allo specchio\n" +
+                                "\n" +
+                                "Non ridere\n" +
+                                "Se io fossi in te\n" +
+                                "Farei la mia rivoluzione di colpo\n" +
+                                "Ti aspetto\n" +
+                                "Finirai di ridere\n" +
+                                "\n" +
+                                "Come affondo, io non so\n" +
+                                "Tu ieri mi hai buttato nel Po\n" +
+                                "Costringendomi a restare giù\n" +
+                                "Dicevi: io non scherzo\n" +
+                                "\n" +
+                                "E tu lo sai, mi tireranno su poi\n" +
+                                "Saranno gli anni che ci dividono\n" +
+                                "Fai come se non esistessi e poi\n" +
+                                "Avrai un mondo così facile\n" +
+                                "Facile\n" +
+                                "\n" +
+                                "Ora puoi, il fisico ce l'hai\n" +
+                                "Per fare la rivoluzione che aspetto"));
+                        arrayCanzoni.add(new Canzone("Il nulla di O.","Resta giù, superando ogni limite\n" +
+                                "Lei soffre ma la pena può ridere\n" +
+                                "Ci toccherà combattere la noia\n" +
+                                "Come ogni volta che rimani sola\n" +
+                                "Non è più così\n" +
+                                "Cosa cerchi non è lì\n" +
+                                "E non serve esser sani\n" +
+                                "Se poi vivere è tragico\n" +
+                                "\n" +
+                                "Cud cu cu\n" +
+                                "C'è un errore tra di noi\n" +
+                                "Cud cu cu\n" +
+                                "Che stiamo immobili\n" +
+                                "Restiamo immobili\n" +
+                                "Finchè verrà\n" +
+                                "A salvarci\n"));
+                        arrayCanzoni.add(new Canzone("Lui gareggia","La inseguirò, restar non so\n" +
+                                "Che non è magico se non sei più tu\n" +
+                                "Irradiami, irradiati\n" +
+                                "\n" +
+                                "Come un eroe, lui gareggia\n" +
+                                "Stereo a go-go, lui gareggia\n" +
+                                "Fuori di sé, lui gareggia\n" +
+                                "Lui gareggia, lui gareggia"));
+                        arrayCanzoni.add(new Canzone("Le scarpe volanti","È come pensavo, di ridere non smetterò\n" +
+                                "In questa guerra che vincere io non potrò\n" +
+                                "Credimi, è dura, ma rido\n" +
+                                "\n" +
+                                "Se fossi qui con me ti ascolterei\n" +
+                                "E non dirmi è poco o niente\n" +
+                                "Credimi, è dura\n" +
+                                "E al sicuro sarò, solo senza lei\n" +
+                                "\n" +
+                                "Io non ho più parole, neanche lacrime\n" +
+                                "\n" +
+                                "Non pensi sia un rischio\n" +
+                                "Eliminarsi ancora un po'\n" +
+                                "In questa battaglia che vincere io non potrò\n" +
+                                "\n" +
+                                "Polka e giudei, fai felice chi sei\n" +
+                                "Fare il clown non dà risultati\n" +
+                                "E forse cambiare dovrei\n" +
+                                "Cosa non ti farei che tu non sai\n" +
+                                "Fermerò anche uno yacht\n" +
+                                "Perchè un mare di nebbia è quello che ho\n"));
+                        arrayCanzoni.add(new Canzone("Castelli per aria","Non so perchè immagino\n" +
+                                "Tu sì, lo sai e immagino\n" +
+                                "Solo, solo sarò\n" +
+                                "Con lei, solo sarò\n" +
+                                "\n" +
+                                "Lo so perchè immagino\n" +
+                                "Noi due in un mai, immagino\n" +
+                                "Come, come farò se è vero?\n" +
+                                "\n" +
+                                "Io che non ho che lei su di me\n" +
+                                "E so che non passerà\n" +
+                                "Forse lei spazio non ha\n" +
+                                "Nella realtà\n" +
+                                "Non so perchè immagino\n"));
+                        arrayCanzoni.add(new Canzone("Sorriso in spiaggia pt. 1","Dani è di più, più di un hippie, è un grillo\n" +
+                                "Giuda è con me, farò bene a non dirlo\n" +
+                                "Mari è giù in spiaggia, e il sole non c'è\n" +
+                                "In un'estate a rischio così\n" +
+                                "\n" +
+                                "Uh, lei insorge\n" +
+                                "Uh, lei insorge\n" +
+                                "\n" +
+                                "Non credi poi, dovremmo correre di più\n" +
+                                "\n" +
+                                "Dani è di più, non è un hippie, è un grillo\n" +
+                                "Gli uomini in sé sono in preda al delirio\n" +
+                                "Mari è giù in spiaggia, e il sole non c'è\n" +
+                                "In un'estate a rischio così\n" +
+                                "\n" +
+                                "Uh, lei insorge\n" +
+                                "Uh, lei insorge\n" +
+                                "\n" +
+                                "Non credi poi dovremmo correre di più"));
+                        arrayCanzoni.add(new Canzone("Sorriso in spiaggia pt. 2","Sento il suo sorriso su me\n" +
+                                "È come non vedessi più\n" +
+                                "È vivo, fra i raggi esplode il sole\n" +
+                                "In excelsis\n" +
+                                "\n" +
+                                "Steso sul bagnasciuga\n" +
+                                "Lo so cosa aspetto\n" +
+                                "Il sole, che irradia il vuoto buio\n" +
+                                "In cui galleggerò\n" +
+                                "\n" +
+                                "È colpa del buio\n" +
+                                "\n" +
+                                "Gronda chi sei\n" +
+                                "Non fare il clown\n" +
+                                "Saltando le onde\n" +
+                                "Mi inviterai, e ci sto\n" +
+                                "Ci sto, ci sto..."));
+                        arrayCanzoni.add(new Canzone("Attonito","Sarai così serio, suoni su Facebook\n" +
+                                "Come un'icona vive dentro di te, poi\n" +
+                                "Nessun livido, nuoti sul ghiaccio\n" +
+                                "E poi rimani giù, rimani giù\n" +
+                                "\n" +
+                                "Lo sguardo attonito, ti tradisce\n" +
+                                "Col kit autorico, sai di andare bene\n" +
+                                "\n" +
+                                "Ritorni ferito da uno schema distante\n" +
+                                "Le mani vuote sono fuori di te, poi\n" +
+                                "Con un brivido esci dal ghiaccio\n" +
+                                "E non rimani giù, rimani giù\n" +
+                                "\n" +
+                                "Lo sguardo attonito, ti tradisce\n" +
+                                "Col kit autorico, sai di andare bene\n" +
+                                "Sai di andare bene"));
+                        arrayCanzoni.add(new Canzone("È solo lunedì","No, nessuno sa che io vivrò senza di lei\n" +
+                                "Sì, io vivrò\n" +
+                                "Sta, sta ancora su ma\n" +
+                                "I però costringono i guai\n" +
+                                "Io lo so\n" +
+                                "\n" +
+                                "Cosa fare adesso?\n" +
+                                "È inutile, l'idea solo male farà\n" +
+                                "È solo lunedì nella mia mente, nella mia mente\n" +
+                                "È solo lunedì\n" +
+                                "\n" +
+                                "No, nessuno sa che io vivrò senza di lei\n" +
+                                "Sì, io vivrò\n"));
+                        arrayCanzoni.add(new Canzone("Tu e me","È inutile e non potrei\n" +
+                                "Fermare l'idea che viene e va\n" +
+                                "Tu e me\n" +
+                                "\n" +
+                                "Cosa dire, se fosse facile\n" +
+                                "Sarebbe bellissimo\n" +
+                                "Ci sei o ci fai?\n" +
+                                "Io non so\n" +
+                                "\n" +
+                                "In un film distorto ormai\n" +
+                                "Tu non sai\n" +
+                                "Vai così, verso il blu\n" +
+                                "\n" +
+                                "(Thank You Johnny)"));
+                        arrayCanzoni.add(new Canzone("Badea blues","Bevi Giuda\n" +
+                                "Don Callisto, rimbomba il suo blues\n" +
+                                "Elisa corre e tu sempre lì\n" +
+                                "Aggrappato a un fegato ormai\n" +
+                                "Solo e triste tu non rimarrai\n" +
+                                "\n" +
+                                "Cerco qui l'abitudine sui miei guai\n" +
+                                "Nella polvere\n" +
+                                "\n" +
+                                "Eri tu che campavi col blues\n" +
+                                "Fermo immobile io non tremo più\n" +
+                                "Allucinante, veramente uno shock\n" +
+                                "Non puoi dire di no\n" +
+                                "\n" +
+                                "E ignora gli occhi miei\n" +
+                                "E ignora gli occhi miei\n" +
+                                "E ignora gli occhi\n" +
+                                "Ignora gli occhi miei..."));
+                        arrayCanzoni.add(new Canzone("Nuova luce","L'amore in un attimo\n" +
+                                "Come in un sogno arriverà\n" +
+                                "Correndo fra gli alberi in questa notte buia\n" +
+                                "Non durerà\n" +
+                                "\n" +
+                                "Non voglio pensarci su\n" +
+                                "Sarebbe un colpo all'anima\n" +
+                                "Ma corre fra gli alberi\n" +
+                                "E in questa notte buia\n" +
+                                "Non durerà\n" +
+                                "\n" +
+                                "È come un fiume\n" +
+                                "Di nuovo e solo tu, su di me\n" +
+                                "Non vedi l'ombra\n" +
+                                "Su noi che siamo qui\n" +
+                                "Comodi\n" +
+                                "L'amore conta, sembrava inutile fino a ieri"));
+                        arrayCanzoni.add(new Canzone("Grattacielo","Forse non capirai mai\n" +
+                                "Tu distrai le mie parole\n" +
+                                "Un fulmine a ciel sereno sarà\n" +
+                                "\n" +
+                                "Forse non capirò mai\n" +
+                                "Anche se in riva al sole\n" +
+                                "Al culmine mi ritrovo oramai\n" +
+                                "\n" +
+                                "Uh, è più grande di me\n" +
+                                "Inutile insistere\n" +
+                                "Solo se tu vuoi, solo se tu vuoi\n" +
+                                "\n" +
+                                "Forse non capirai mai\n" +
+                                "Tu distrai le mie parole\n"));
+                        arrayCanzoni.add(new Canzone("A Capello","[Strumentale]"));
+                        arrayCanzoni.add(new Canzone("Rossella roll over","Quand'ero giovane era tutto diverso\n" +
+                                "Lo sai Rossella\n" +
+                                "Novità valide non ne ho\n" +
+                                "Se solo capissi\n" +
+                                "Te ne vai Rossella, lontano da me\n" +
+                                "Proprio come tu vuoi, vuoi\n" +
+                                "\n" +
+                                "Tu mi hai, io lo so\n" +
+                                "Credi in me, credi in noi\n" +
+                                "Credi in ciò che vuoi\n" +
+                                "Vivi nelle fiamme\n" +
+                                "\n" +
+                                "Cipressi a molotov\n" +
+                                "E' peggio dire no\n" +
+                                "Vagherai Rossella, lontano da me\n" +
+                                "Lontano da me, lontano da me..\n" +
+                                "\n" +
+                                "Fai ciò che credi qui\n" +
+                                "Se sai di vincere\n" +
+                                "Sei senza limiti\n" +
+                                "Se sai di vincere\n" +
+                                "Se sai di vincere..\n" +
+                                "\n" +
+                                "Prendi e Vai Rossella, lontano da me\n" +
+                                "Proprio come tu vuoi\n"));
+                        arrayCanzoni.add(new Canzone("Canzone ostinata","Oh mio Dio\n" +
+                                "Il mondo mi assopiva\n" +
+                                "Poi ho trovato lei\n" +
+                                "Ne uscirò, ne uscirò\n" +
+                                "\n" +
+                                "Ora c'è, e parlerò di noi\n" +
+                                "Come se fossimo ancora insieme\n" +
+                                "\n" +
+                                "È fantastico, ma è vero\n" +
+                                "Ed io non so se tornerai, clorofilla\n" +
+                                "Sui miei guai\n" +
+                                "\n" +
+                                "Autobus, riportami vicino\n" +
+                                "A dove respira lei\n" +
+                                "Ne uscirò, ne uscirò\n" +
+                                "\n" +
+                                "Sai quanto vale insistere tra noi\n" +
+                                "Come se fossimo ancora insieme\n"));
                         arrayCanzoni.add(new Canzone("12,5 mg","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Sul ciglio",""));
-                        arrayCanzoni.add(new Canzone("Letto di mosche",""));
+                        arrayCanzoni.add(new Canzone("Sul ciglio","Cosa ci fai con me?\n" +
+                                "Sul ciglio stai\n" +
+                                "Ci proverai ma...\n" +
+                                "M'illumino\n" +
+                                "Come le redini in me\n" +
+                                "Sì, lo può dire solo lei\n" +
+                                "Così tu fai e il futuro avrai\n"));
+                        arrayCanzoni.add(new Canzone("Letto di mosche","Sospinge gli occhi miei\n" +
+                                "E farti a pezzi io non potrei\n" +
+                                "Tu sola in armonia\n" +
+                                "Prendi a calci l'anima mia\n" +
+                                "Sul serio, non è un film\n" +
+                                "Continueremo così\n" +
+                                "\n" +
+                                "Prendi e paghi bene\n" +
+                                "Prendi il tuo stipendio e poi vai\n" +
+                                "Senza più parole\n" +
+                                "Sopravvivere dura per sempre\n" +
+                                "\n" +
+                                "Sei insetti dormono\n" +
+                                "E spariscono su di noi\n" +
+                                "Su di noi, su di noi"));
                         arrayCanzoni.add(new Canzone("La volta","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Lei disse (Un mondo del tutto differente)",""));
+                        arrayCanzoni.add(new Canzone("Lei disse (Un mondo del tutto differente)","Disse c'è un modo eppure freme\n" +
+                                "É un luminarium fra noi\n" +
+                                "Distanti più di sempre\n" +
+                                "\n" +
+                                "Disse c'è un temporale\n" +
+                                "Cosa mai mancò fra noi due?\n" +
+                                "Due mondi nell'universo\n" +
+                                "\n" +
+                                "Amore tu non puoi\n" +
+                                "Difficile capirsi ormai\n" +
+                                "Vivo nel caos\n" +
+                                "Subito la notte è qui\n" +
+                                "Chiudi le malinconie\n" +
+                                "Scegli me, scegli me\n" +
+                                "\n" +
+                                "(disse c'è un temporale)\n" +
+                                "In un mondo che sai\n" +
+                                "Non si placherà mai\n" +
+                                "Amami"));
                         break;
                     case 15:
                         arrayCanzoni.add(new Canzone("Rossella Roll Over (Live)","Uh uh oh\n" +
