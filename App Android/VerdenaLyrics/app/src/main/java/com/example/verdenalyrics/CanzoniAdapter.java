@@ -36,6 +36,7 @@ public class CanzoniAdapter extends RecyclerView.Adapter<CanzoniAdapter.MyViewCa
             Intent intent = new Intent(mContext,TestoActivity.class);
             intent.putExtra("testo",arrayCanzone.get(position).getTesto());
             intent.putExtra("titolo",arrayCanzone.get(position).getTitles());
+            intent.putExtra("about",arrayCanzone.get(position).getAbout());
             mContext.startActivity(intent);
         });
     }

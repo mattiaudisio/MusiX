@@ -59,37 +59,21 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                 arrayCanzoni.clear();
                 switch (getAdapterPosition()){
                     case 0:
-                        arrayCanzoni.add(new Canzone("Took your name","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Valium","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("DMS 10","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Froggs Eggs","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Across","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Stinky Louse","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("High Heart Corporation","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Wonder","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Leasy Creep","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Porno Dolls Rubber","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Velvet","Lyrics for this song have yet to be released"));
+                        arrayCanzoni.add(new Canzone("Took your name","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Valium","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("DMS 10","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Froggs Eggs","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Across","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Stinky Louse","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("High Heart Corporation","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Wonder","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Leasy Creep","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Porno Dolls Rubber","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Velvet","Lyrics for this song have yet to be released",""));
                         break;
                     case 1:
-                        arrayCanzoni.add(new Canzone("Fuxia","Eroina fertile\nVincerai tu\nSuicida isterico\nDove sei?\nCurami\nCurami\nAdesso no\n\nIo che non so\nPiù dove andrò\nPure se vuoi\nMa io non lo so\nDove sei\n\nVoglio e posso perdere\nVincerai tu\nSangue in seno voli via\nLavami lì\nCurami\nCurami\nAncora un pò\n\nIo che non so\nPiù dove andrò\nPure se puoi\nMa io non lo so\nNon lo so\nNon lo so\n\nDove sei (x17)"));
-                        arrayCanzoni.add(new Canzone("Fiato Adolescenziale","Eh, scimmie, non mi frega vivere\nSucchiandomi, io non devo esigere\n" +
-                                "Carne, bamboline stitiche\nCullandomi, io non devo esigere\n" +
-                                "Guardami come sei\nIo non so più perdere\n" +
-                                "Guardami come puoi\n" +
-                                "Io amavo le mie\n" +
-                                "Scimmie, grandi mani su di me\n" +
-                                "Mangimi, crollo e penso solo a me\n" +
-                                "Guardami come sei\n" +
-                                "Io non so più perdere\n" +
-                                "Guardami come puoi\n" +
-                                "Io non so più perdere\n" +
-                                "Eh\n" +
-                                "Dovrei, fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Uh, uhuh, la la\n" +
+                        arrayCanzoni.add(new Canzone("Fuxia","Eroina fertile\nVincerai tu\nSuicida isterico\nDove sei?\nCurami\nCurami\nAdesso no\n\nIo che non so\nPiù dove andrò\nPure se vuoi\nMa io non lo so\nDove sei\n\nVoglio e posso perdere\nVincerai tu\nSangue in seno voli via\nLavami lì\nCurami\nCurami\nAncora un pò\n\nIo che non so\nPiù dove andrò\nPure se puoi\nMa io non lo so\nNon lo so\nNon lo so\n\nDove sei (x17)",""));
+                        arrayCanzoni.add(new Canzone("Fiato Adolescenziale","Eh, scimmie, non mi frega vivere\nSucchiandomi, io non devo esigere\nCarne, bamboline stitiche\nCullandomi, io non devo esigere\nGuardami come sei\nIo non so più perdere\nGuardami come puoi\nIo amavo le mie\nScimmie, grandi mani su di me\nMangimi, crollo e penso solo a me\nGuardami come sei\nIo non so più perdere\nGuardami come puoi\nIo non so più perdere\nEh\nDovrei, fuori me\nFuori me\nFuori me\nFuori me\nUh, uhuh, la la\n" +
                                 "Eh, ihih, la la\n" +
                                 "Uh, uhuh, lala, mi\n" +
                                 "Scimmie, non mi frega vivere\n" +
@@ -111,7 +95,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Fuori me\n" +
                                 "Uh, uhuh, la la\n" +
                                 "Eh, ihih, la la\n" +
-                                "Uh, uhuh, lala, mi\n"));
+                                "Uh, uhuh, lala, mi\n","Il titolo è probabilmente una citazione della celebre “Smells Like Teen Spirit” dei Nirvana, ai quali i Verdena sono stati paragonati all'inizio della loro carriera e che certamente ebbero una grande influenza sul gruppo bergamasco."));
                         arrayCanzoni.add(new Canzone("Nella Schiuma","Come vuoi starò fuori e dentro me\n" +
                                 "Puoi convincere le mie labbra perdersi\n" +
                                 "Le mie labbra perdersi\n" +
@@ -122,7 +106,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Scopi labbra e fiori blu\n" +
                                 "Rose lesbiche posso credere\n" +
                                 "Rubi ma non sei carne giovane\n" +
-                                "Verbena (x8)"));
+                                "Verbena (x8)",""));
                         arrayCanzoni.add(new Canzone("Zoe","Io non dormo mai\n" +
                                 "Dormo in me\n" +
                                 "Scuse solide\n" +
@@ -166,7 +150,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Su di te\n" +
                                 "Te\n" +
                                 "Te\n" +
-                                "Te"));
+                                "Te",""));
                         arrayCanzoni.add(new Canzone("Bambina In Nero","Lei si consuma su di me\n" +
                                 "Lei si nasconde ma non so dov'è\n" +
                                 "Con le tue ali in coma stai\n" +
@@ -185,7 +169,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E tu sei sola\n" +
                                 "E tu sei sola\n" +
                                 "Tu sei sola\n" +
-                                "E tu sei sola"));
+                                "E tu sei sola",""));
                         arrayCanzoni.add(new Canzone("Mormorio mucoso","Come sai puoi vincere\n" +
                                 "Così guardami so fingere\n" +
                                 "Come sai non ho fame\n" +
@@ -199,7 +183,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Come sai non ho fame\n" +
                                 "Come vuoi lo so non fa male\n" +
                                 "Come sai qui sto bene\n" +
-                                "Legami se vuoi non fa male\n"));
+                                "Legami se vuoi non fa male\n",""));
                         arrayCanzoni.add(new Canzone("Memo Box","Occhi neri tremano... dove andrò?\n" +
                                 "Labbra in culo chiamami... ti troverò!\n" +
                                 "Troverò ahh\n" +
@@ -234,7 +218,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Dimmi che\n" +
                                 "Dimmi che non hai paura\n" +
                                 "\n" +
-                                "Pauraa ahhhua"));
+                                "Pauraa ahhhua",""));
                         arrayCanzoni.add(new Canzone("Sara","Sara, le tue lacrime sono nuvole\n" +
                                 "Oh no le tue rughe sai sono lacrime\n" +
                                 "Ah-ha, sono fuori ma, ma perchè vai là?\n" +
@@ -257,7 +241,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Tu mi spegni\n" +
                                 "E nuda bevi, tu\n" +
                                 "Tu mi spremi\n" +
-                                "E nuda bevi, tu"));
+                                "E nuda bevi, tu",""));
                         arrayCanzoni.add(new Canzone("Bevimi","Fuori piove e poi il culo è vergine\n" +
                                 "Fuori piove ma so chi sei\n" +
                                 "Seno fragile, tu il crimine\n" +
@@ -276,7 +260,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Oh no, oh no, oh no\n" +
                                 "Oh no, oh no, oh no\n" +
                                 "Bevimi, so chi sei\n" +
-                                "Bevimi, so chi sei"));
+                                "Bevimi, so chi sei",""));
                         arrayCanzoni.add(new Canzone("Blu Ninive","Io qui vincibile, ma tu sei qui\n" +
                                 "Con me in lacrime, inculami\n" +
                                 "Ah yeah!\n" +
@@ -294,8 +278,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "No tu non puoi\n" +
                                 "Mi lasci e poi vai\n" +
                                 "Waah! Yeah!\n" +
-                                "Ah yeah!"));
-                        arrayCanzoni.add(new Canzone("Omnia 2241","[Strumentale]"));
+                                "Ah yeah!",""));
+                        arrayCanzoni.add(new Canzone("Omnia 2241","[Strumentale]","Ultimo brano del demotape, “Omnia 2241” consiste in una jam session strumentale, eccetto per le urla sporadiche di Alberto, comprendente strumenti inediti nel resto dell'album.\n"));
                         break;
                     case 2:
                         arrayCanzoni.add(new Canzone("Valvonauta","Mi affogherei\n" +
@@ -328,7 +312,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Sto bene se non torni mai\n" +
                                 "Sto bene se non torni mai\n" +
-                                "Sto bene se non torni mai, mai"));
+                                "Sto bene se non torni mai, mai","“Valvonauta” è il singolo d'esordio dei Verdena, pubblicato come primo estratto del loro primo album, del quale ha anticipato l'uscita. Il brano, promosso da un videoclip diretto da Francesco Fei, venne trasmesso di frequente su MTV all'epoca, contribuendo a far conoscere gli allora giovanissimi Verdena.\n\nRitenuta da Rockerilla «il manifesto di una generazione, alla pari di “Smells Like Teen Spirit\"» e da Rolling Stone la «”Creep“ del rock alternativo italiano», \"Valvonauta” è una delle tracce più celebri dei Verdena, nonché una delle più rappresentative della prima fase della loro carriera (comprendente i loro primi tre album). Il gruppo, nonostante la sua evoluzione musicale, ha continuato a suonarla dal vivo e Alberto Ferrari la considera la sua traccia preferita dell'album Verdena.\n\nPer quanto i testi dei Verdena siano notoriamente e per stessa ammissione del gruppo privi di un significato (perlomeno esplicito), “Valvonauta” sembra descrivere una storia d'amore tipicamente adolescenziale, anche se anni dopo l'autore del testo, Alberto Ferrari, rivelerà che la canzone parla di masturbazione. Il titolo, mai citato nel testo, è una parola macedonia data dall'unione di “valvole”, un riferimento agli amplificatori, e “-nauta”.\n\nÈ da citare infine una versione dal vivo di “Valvonauta”, suonata ai tempi dell'uscita nel programma televisivo MTV Supersonic, nella quale Alberto Ferrari storpia in maniera esplicita il testo: «Sto bene se non trombi mai» anziché «sto bene se non torni mai», «penso sempre al sesso» anziché «penso sempre lo stesso».\n"));
                         arrayCanzoni.add(new Canzone("Dentro Sharon","Tremi un pò\n" +
                                 "E non è facile\n" +
                                 "Urlare nei rumori tuoi\n" +
@@ -360,7 +344,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Ebbene posso insistere\n" +
                                 "Confusione...\n" +
-                                "Confusione..."));
+                                "Confusione...",""));
                         arrayCanzoni.add(new Canzone("Bonne Nouvelle","Ora che... ora... ti senti ok\n" +
                                 "Un grido in più\n" +
                                 "E poi tu... non ci sei più\n" +
@@ -400,7 +384,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Mi sento strano e non vorrei\n" +
                                 "\n" +
-                                "Ok... ok... ok... ok"));
+                                "Ok... ok... ok... ok",""));
                         arrayCanzoni.add(new Canzone("Piuma","Non c'è più un'immagine\n" +
                                 "Ma sento che la vorrei con me\n" +
                                 "Lo sai che c'è\n" +
@@ -428,7 +412,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Dentro me\n" +
                                 "Dentro me\n" +
                                 "Dentro me\n" +
-                                "Dentro me\n"));
+                                "Dentro me\n",""));
                         break;
                     case 3:
                         arrayCanzoni.add(new Canzone("Ovunque","È buio ormai\n" +
@@ -459,7 +443,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ovunque sei\n" +
                                 "Ovunque sei ci sei\n" +
                                 "Ovunque sei\n" +
-                                "Ovunque"));
+                                "Ovunque",""));
                         arrayCanzoni.add(new Canzone("Valvonauta","Mi affogherei\n" +
                                 "E anche se non mi viene\n" +
                                 "Io senza lei\n" +
@@ -490,7 +474,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Sto bene se non torni mai\n" +
                                 "Sto bene se non torni mai\n" +
-                                "Sto bene se non torni mai, mai"));
+                                "Sto bene se non torni mai, mai","“Valvonauta” è il singolo d'esordio dei Verdena, pubblicato come primo estratto del loro primo album, del quale ha anticipato l'uscita. Il brano, promosso da un videoclip diretto da Francesco Fei, venne trasmesso di frequente su MTV all'epoca, contribuendo a far conoscere gli allora giovanissimi Verdena.\n\nRitenuta da Rockerilla «il manifesto di una generazione, alla pari di “Smells Like Teen Spirit\"» e da Rolling Stone la «”Creep“ del rock alternativo italiano», \"Valvonauta” è una delle tracce più celebri dei Verdena, nonché una delle più rappresentative della prima fase della loro carriera (comprendente i loro primi tre album). Il gruppo, nonostante la sua evoluzione musicale, ha continuato a suonarla dal vivo e Alberto Ferrari la considera la sua traccia preferita dell'album Verdena.\n\nPer quanto i testi dei Verdena siano notoriamente e per stessa ammissione del gruppo privi di un significato (perlomeno esplicito), “Valvonauta” sembra descrivere una storia d'amore tipicamente adolescenziale, anche se anni dopo l'autore del testo, Alberto Ferrari, rivelerà che la canzone parla di masturbazione. Il titolo, mai citato nel testo, è una parola macedonia data dall'unione di “valvole”, un riferimento agli amplificatori, e “-nauta”.\n\nÈ da citare infine una versione dal vivo di “Valvonauta”, suonata ai tempi dell'uscita nel programma televisivo MTV Supersonic, nella quale Alberto Ferrari storpia in maniera esplicita il testo: «Sto bene se non trombi mai» anziché «sto bene se non torni mai», «penso sempre al sesso» anziché «penso sempre lo stesso».\n"));
                         arrayCanzoni.add(new Canzone("Pixel","No io non so com'è\n" +
                                 "Ma mi sembra inutile\n" +
                                 "Dirti di più perché\n" +
@@ -520,7 +504,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Un po' di lei\n" +
                                 "Dio contro di me\n" +
                                 "È come vorrei\n" +
-                                "Sfiorarti di più..."));
+                                "Sfiorarti di più...",""));
                         arrayCanzoni.add(new Canzone("L’infinita Gioia Di Henry Bahus","Io non ti avrò mai\n" +
                                 "Ma sento che c'è\n" +
                                 "Mi sfiori\n" +
@@ -557,7 +541,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Io come lei\n" +
                                 "E dentro me\n" +
                                 "E dentro me\n" +
-                                "Io come lei"));
+                                "Io come lei",""));
                         arrayCanzoni.add(new Canzone("Vera","Vera dormi un pò\n" +
                                 "Ma non sei così\n" +
                                 "Dolce come sei\n" +
@@ -580,7 +564,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E più in là\n" +
                                 "Più in là\n" +
                                 "Io lo so\n" +
-                                "Tu mi fai\n"));
+                                "Tu mi fai\n",""));
                         arrayCanzoni.add(new Canzone("Dentro Sharon","Tremi un pò\n" +
                                 "E non è facile\n" +
                                 "Urlare nei rumori tuoi\n" +
@@ -612,7 +596,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Ebbene posso insistere\n" +
                                 "Confusione...\n" +
-                                "Confusione..."));
+                                "Confusione...",""));
                         arrayCanzoni.add(new Canzone("Caramel Pop","Caramel pop\n" +
                                 "Caramel pop\n" +
                                 "Caramel pop\n" +
@@ -622,7 +606,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E che non hai\n" +
                                 "Tutto quello che sei\n" +
                                 "O che non sei mai stato\n" +
-                                "Tutto\n"));
+                                "Tutto\n",""));
                         arrayCanzoni.add(new Canzone("Viba","Sono sveglio o forse no\n" +
                                 "Ma non m'importa\n" +
                                 "Tu sei l'unica per me\n" +
@@ -656,11 +640,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "In fondo tu mi vuoi\n" +
                                 "E se mi vuoi\n" +
                                 "Io volo eeeeeeh\n" +
-                                "Io volo eeeeeeh"));
-                        arrayCanzoni.add(new Canzone("Ultranoia","No\n" +
-                                "Non ci sei\n" +
-                                "È strano sai\n" +
-                                "Sentirti come me\n" +
+                                "Io volo eeeeeeh",""));
+                        arrayCanzoni.add(new Canzone("Ultranoia","No\nNon ci sei\nÈ strano sai\nSentirti come me\n" +
                                 "Qui\n" +
                                 "Sfregami\n" +
                                 "È qui che stai\n" +
@@ -728,7 +709,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Sei tu\n" +
                                 "Sei tu\n" +
                                 "Sei tu\n" +
-                                "Sei tu"));
+                                "Sei tu",""));
                         arrayCanzoni.add(new Canzone("Zoe","Io non dormo mai\n" +
                                 "Dormo in me\n" +
                                 "Scuse solide\n" +
@@ -772,7 +753,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Su di te\n" +
                                 "Te\n" +
                                 "Te\n" +
-                                "Te\n"));
+                                "Te\n",""));
                         arrayCanzoni.add(new Canzone("Bambina in nero","Lei si consuma su di me\n" +
                                 "Lei si nasconde ma non so dov'è\n" +
                                 "Con le tue ali in coma stai\n" +
@@ -791,7 +772,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E tu sei sola\n" +
                                 "E tu sei sola\n" +
                                 "Tu sei sola\n" +
-                                "E tu sei sola"));
+                                "E tu sei sola",""));
                         arrayCanzoni.add(new Canzone("eyeliner","Vedi blu\n" +
                                 "E ti senti fragile\n" +
                                 "Ora, sgomma\n" +
@@ -824,7 +805,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Incolla, uh\n" +
                                 "Incolla, incolla\n" +
                                 "Incolla, incolla\n" +
-                                "Incolla, yeah"));
+                                "Incolla, yeah",""));
                         break;
                     case 4:
                         arrayCanzoni.add(new Canzone("Viba","Sono sveglio o forse no\n" +
@@ -860,7 +841,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "In fondo tu mi vuoi\n" +
                                 "E se mi vuoi\n" +
                                 "Io volo eeeeeeh\n" +
-                                "Io volo eeeeeeh"));
+                                "Io volo eeeeeeh",""));
                         arrayCanzoni.add(new Canzone("Stenuo","Io non so se vorrei\n" +
                                 "Ti odio ancora più che mai\n" +
                                 "Sono su MTV\n" +
@@ -881,7 +862,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non sei più anoide, mestile\n" +
                                 "\n" +
                                 "Se stenui in più\n" +
-                                "Non sei più anoide, mestile\n"));
+                                "Non sei più anoide, mestile\n",""));
                         arrayCanzoni.add(new Canzone("Sunshine of Your Love","It’s getting near dawn\n" +
                                 "When lights close their tired eyes\n" +
                                 "I'll soon be with you, my love\n" +
@@ -918,8 +899,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "I've been waiting so long\n" +
                                 "I've been waiting so long\n" +
                                 "To be where I'm going\n" +
-                                "In the sunshine of your love"));
-                        arrayCanzoni.add(new Canzone("Cretina","[Strumentale]"));
+                                "In the sunshine of your love",""));
+                        arrayCanzoni.add(new Canzone("Cretina","[Strumentale]",""));
                         break;
                     case 5:
                         arrayCanzoni.add(new Canzone("La Tua Fretta","Tu lo sai\n" +
@@ -940,7 +921,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Vera\n" +
                                 "La fretta è in te\n" +
-                                "È solo che ti rivorrei"));
+                                "È solo che ti rivorrei",""));
                         arrayCanzoni.add(new Canzone("Spaceman","Spaceman\n" +
                                 "La fine è qui e ti cullerà\n" +
                                 "Io temo di vincerti\n" +
@@ -981,7 +962,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Spaceman\n" +
                                 "Spaceman\n" +
-                                "Spaceman"));
+                                "Spaceman",""));
                         arrayCanzoni.add(new Canzone("Nova","Distinguimi se puoi\n" +
                                 "E so che tu lo fai bene in lacrime\n" +
                                 "Consumi vuoti blu in più\n" +
@@ -1013,7 +994,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Sfiorami, dudu\n" +
                                 "Respingi echi in nuvole\n" +
                                 "Nuvole\n" +
-                                "Nuvole"));
+                                "Nuvole",""));
                         arrayCanzoni.add(new Canzone("Cara prudenza","A quanto pare sei\n" +
                                 "Più lucida di me\n" +
                                 "Così lo scoprirai\n" +
@@ -1054,7 +1035,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Di te\n" +
                                 "(E in ogni crimine) Di te\n" +
                                 "(E in ogni crimine) Di te\n" +
-                                "(E in ogni crimine) Di te"));
+                                "(E in ogni crimine) Di te","Il titolo del brano è una citazione a “Dear Prudence” dei Beatles, da sempre gruppo di grande ispirazione per i Verdena, in particolare per Alberto Ferrari."));
                         arrayCanzoni.add(new Canzone("Onan","Ora sembra inutile\n" +
                                 "Ora voli al limite\n" +
                                 "Ora che ti sentirei più che mai\n" +
@@ -1098,7 +1079,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "La tua vertigine\n" +
                                 "Non è mai stata semplice\n" +
-                                "Per me"));
+                                "Per me",""));
                         arrayCanzoni.add(new Canzone("Starless","Sei la mia gioia insensibile\n" +
                                 "E questo è come ti rivorrei\n" +
                                 "Ma è tutto così normale il male che vorrei\n" +
@@ -1125,30 +1106,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Sunchild\n" +
                                 "Sunchild, sunchild\n" +
                                 "Sunchild, sunchild\n" +
-                                "Sunchild"));
-                        arrayCanzoni.add(new Canzone("Miami Safari","Stridi in me, ruvida\n" +
-                                "Respingimi, dolce nuvola\n" +
-                                "Ti creerei noie in più\n" +
-                                "E giura sei così umida\n" +
-                                "\n" +
-                                "Trovami semplice\n" +
-                                "Trovami semplice\n" +
-                                "Trovami semplice\n" +
-                                "(Sfiorami) Se ci sei\n" +
-                                "(Sfiorami) Se ci sei\n" +
-                                "\n" +
-                                "Sei il crimine che vorrei\n" +
-                                "Ebbene tu, ali solide\n" +
-                                "\n" +
-                                "Trovami semplice\n" +
-                                "(Sfiorami) Se ci sei\n" +
-                                "(Sfiorami) Se ci sei\n" +
-                                "\n" +
-                                "(Sfiorami) Se ci sei\n" +
-                                "(Sfiorami) Se ci sei\n" +
-                                "\n" +
-                                "Credo poi che dovrei\n" +
-                                "Respingerti come non mai"));
+                                "Sunchild",""));
+                        arrayCanzoni.add(new Canzone("Miami Safari","Stridi in me, ruvida\nRespingimi, dolce nuvola\nTi creerei noie in più\nE giura sei così umida\n\nTrovami semplice\nTrovami semplice\nTrovami semplice\n(Sfiorami) Se ci sei\n(Sfiorami) Se ci sei\n\nSei il crimine che vorrei\nEbbene tu, ali solide\n\nTrovami semplice\n(Sfiorami) Se ci sei\n(Sfiorami) Se ci sei\n\n(Sfiorami) Se ci sei\n(Sfiorami) Se ci sei\n\nCredo poi che dovrei\nRespingerti come non mai",""));
                         arrayCanzoni.add(new Canzone("Nel Mio Letto","È me-, meglio\n" +
                                 "Che ci sia\n" +
                                 "Un'ora in più\n" +
@@ -1175,7 +1134,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Perché ho paura (Paura)\n" +
                                 "Paura (Paura)\n" +
                                 "Paura (Paura)\n" +
-                                "Paura (Paura)\n"));
+                                "Paura (Paura)\n",""));
                         arrayCanzoni.add(new Canzone("1000 Anni Con Elide","Mi illudi distratta\n" +
                                 "E crei ciò che vorrei\n" +
                                 "Con piume blu stringimi satura\n" +
@@ -1195,7 +1154,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Hai quello che io vorrei fragile Elide\n" +
                                 "\n" +
-                                "Ma tu sei ovunque\n"));
+                                "Ma tu sei ovunque\n",""));
                         arrayCanzoni.add(new Canzone("Buona Risposta","So di non sorprenderti\n" +
                                 "È comunque inutile\n" +
                                 "Dovrei credermi\n" +
@@ -1230,7 +1189,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Per non restare sopra di te\n" +
                                 "E non reagire\n" +
                                 "Yeah, yeah, yeah yeah yeah, yeah\n" +
-                                "Uuh"));
+                                "Uuh",""));
                         arrayCanzoni.add(new Canzone("Centrifuga","Lo sai che lei è immobile\n" +
                                 "È tutto ciò che so di lei\n" +
                                 "E infine senti che c'è\n" +
@@ -1252,7 +1211,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "E comunque sia tu nei sensi e nell'immagine\n" +
                                 "Puoi convincermi tutto in fondo è così semplice\n" +
-                                "Ed inutile"));
+                                "Ed inutile",""));
                         arrayCanzoni.add(new Canzone("Meduse E Tappeti","E infine tu sei ovunque\n" +
                                 "Estingui l'uomo che sei\n" +
                                 "In fiore tu la cura\n" +
@@ -1269,7 +1228,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Queste gocce di ruggine che scorrono lente...\n" +
                                 "\n" +
-                                "Superman finge"));
+                                "Superman finge",""));
                         break;
                     case 6:
                         arrayCanzoni.add(new Canzone("Spaceman","Spaceman\n" +
@@ -1312,7 +1271,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Spaceman\n" +
                                 "Spaceman\n" +
-                                "Spaceman"));
+                                "Spaceman",""));
                         arrayCanzoni.add(new Canzone("Blue","E ancora scarto ogni bugia\n" +
                                 "Le sento insistere nella pazzia\n" +
                                 "Che c'è\n" +
@@ -1344,7 +1303,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Sai perché\n" +
                                 "Solo tu sai perché\n" +
                                 "Sai perché\n" +
-                                "Solo tu sai perché"));
+                                "Solo tu sai perché",""));
                         arrayCanzoni.add(new Canzone("Reverberation","Well, you finally find your helpless mind\n" +
                                 "Is trapped inside your skin\n" +
                                 "You want to leave\n" +
@@ -1394,8 +1353,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Driving your mind insane\n" +
                                 "Reverberation\n" +
                                 "Causing your blood to drain\n" +
-                                "Leaving just charred remains"));
-                        arrayCanzoni.add(new Canzone("Sipario","[Strumentale]"));
+                                "Leaving just charred remains",""));
+                        arrayCanzoni.add(new Canzone("Sipario","[Strumentale]",""));
                         break;
                     case 7:
                         arrayCanzoni.add(new Canzone("Miami Safari","Stridi in me, ruvida\n" +
@@ -1420,7 +1379,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "(Sfiorami) Se ci sei\n" +
                                 "\n" +
                                 "Credo poi che dovrei\n" +
-                                "Respingerti come non mai"));
+                                "Respingerti come non mai",""));
                         arrayCanzoni.add(new Canzone("Solo un grande sasso Part I","Scopri i lividi\n" +
                                 "Illusi su di te\n" +
                                 "E nuda sei più dea\n" +
@@ -1438,8 +1397,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Nel tuo sfogo sai non sei\n" +
                                 "Per niente male, e poi\n" +
                                 "Brilla in lucciole sarò\n" +
-                                "Confuso e debole"));
-                        arrayCanzoni.add(new Canzone("Solo un grande sasso Part II","[Strumentale]"));
+                                "Confuso e debole",""));
+                        arrayCanzoni.add(new Canzone("Solo un grande sasso Part II","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Creepy Smell","And you send your pictures for my wall\n" +
                                 "My wall\n" +
                                 "\n" +
@@ -1454,7 +1413,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Now you know what it's like to cry\n" +
                                 "Creepy Crover\n" +
                                 "Creepy Crover\n" +
-                                "Creepy Crover"));
+                                "Creepy Crover",""));
                         arrayCanzoni.add(new Canzone("Morbida","Blu tu dolce blu\n" +
                                 "Non hai più tempo e spazi no...\n" +
                                 "Illudimi di più tu gioia morbida\n" +
@@ -1474,7 +1433,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E perde l'anima\n" +
                                 "Tu gioia morbida\n" +
                                 "Tu gioia morbida\n" +
-                                "Tu gioia morbida"));
+                                "Tu gioia morbida",""));
                         break;
                     case 8:
                         arrayCanzoni.add(new Canzone("Sulle labbra","La tua primavera è un incubo\n" +
@@ -1496,7 +1455,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Anche odiare è un diritto, sai?\n" +
                                 "\n" +
                                 "La tua primavera è un incubo\n" +
-                                "Disobbedire acquista un senso in più"));
+                                "Disobbedire acquista un senso in più",""));
                         arrayCanzoni.add(new Canzone("Voglio una pelle splendida","Stringimi madre\n" +
                                 "Ho molto peccato\n" +
                                 "Ma la vita è un suicidio\n" +
@@ -1543,7 +1502,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Mercy\n" +
                                 "Mercy\n" +
                                 "Mercy\n" +
-                                "Mercy\n"));
+                                "Mercy\n",""));
                         arrayCanzoni.add(new Canzone("Male di miele","La sicurezza ha un ventre tenero\n" +
                                 "Ma è un demonio steso fra di noi\n" +
                                 "Ti manca e quindi puoi non crederlo\n" +
@@ -1570,7 +1529,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Male di miele\n" +
                                 "\n" +
                                 "Ti do le stesse possibilità\n" +
-                                "Di neve al centro dell'inferno, ti va?"));
+                                "Di neve al centro dell'inferno, ti va?",""));
                         arrayCanzoni.add(new Canzone("Non è per sempre","Dici che i tuoi fiori si sono rovinati\n" +
                                 "Non hai abilità\n" +
                                 "Questa nazione è brutta\n" +
@@ -1620,7 +1579,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "È una laurea per reagire\n" +
                                 "\n" +
                                 "Non è niente\n" +
-                                "Non è per sempre"));
+                                "Non è per sempre",""));
                         arrayCanzoni.add(new Canzone("Dentro Marilyn","Lei è qua, falsità come radioattività\n" +
                                 "Che mentre c'è da osare\n" +
                                 "Uccide lo spettacolo carnale\n" +
@@ -1655,7 +1614,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Che sono il sovversivo\n" +
                                 "Tuo sovversivo amore\n" +
                                 "Non c'è torto o ragione\n" +
-                                "È il naturale processo di eliminazione"));
+                                "È il naturale processo di eliminazione",""));
                         arrayCanzoni.add(new Canzone("Tutto fa un pò male","Sai che la fortuna è una religione\n" +
                                 "Tu ci credi oppure no\n" +
                                 "Lo capiremo prima o poi\n" +
@@ -1677,7 +1636,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ma tutto fa un po' male, tutto fa un po' male\n" +
                                 "\n" +
                                 "E forse fa un po' male, forse fa un po' male\n" +
-                                "Ma tutto fa un po' male, tutto fa un po' male"));
+                                "Ma tutto fa un po' male, tutto fa un po' male",""));
                         arrayCanzoni.add(new Canzone("Nel mio letto","È me-, meglio\n" +
                                 "Che ci sia\n" +
                                 "Un'ora in più\n" +
@@ -1704,7 +1663,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Perché ho paura (Paura)\n" +
                                 "Paura (Paura)\n" +
                                 "Paura (Paura)\n" +
-                                "Paura (Paura)"));
+                                "Paura (Paura)",""));
                         arrayCanzoni.add(new Canzone("Ovunque (live)","È buio ormai\n" +
                                 "Non mi frega se piangi o no ooh\n" +
                                 "Io come te\n" +
@@ -1733,7 +1692,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ovunque sei\n" +
                                 "Ovunque sei ci sei\n" +
                                 "Ovunque sei\n" +
-                                "Ovunque"));
+                                "Ovunque",""));
                         arrayCanzoni.add(new Canzone("Meduse e tappeti (live) ","E infine tu sei ovunque\n" +
                                 "Estingui l'uomo che sei\n" +
                                 "In fiore tu la cura\n" +
@@ -1745,12 +1704,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E tu slegami come sai\n" +
                                 "Ora non ho più sfide\n" +
                                 "Io ho e hai un airbag\n" +
-                                "E tu sei qui e mi confondi\n" +
-                                "Solo tu sai\n" +
-                                "\n" +
-                                "Queste gocce di ruggine che scorrono lente...\n" +
-                                "\n" +
-                                "Superman finge"));
+                                "E tu sei qui e mi confondi\nSolo tu sai\n\nQueste gocce di ruggine che scorrono lente...\n\nSuperman finge",""));
                         break;
                     case 9:
                         arrayCanzoni.add(new Canzone("Elefante","Blu\n" +
@@ -1782,7 +1736,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Mi sparo boom\n" +
                                 "Se la mia pelle è in fumo\n" +
                                 "La tua soffoca\n" +
-                                "La tua soffoca, la tua soffoca"));
+                                "La tua soffoca, la tua soffoca",""));
                         arrayCanzoni.add(new Canzone("Perfect Day","Man, it's so proud to be used, mh\n" +
                                 "The wind blows out my thoughts\n" +
                                 "Just to hear 'em out\n" +
@@ -1795,7 +1749,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "You're talking so loud once again\n" +
                                 "You talk so loud once again\n" +
                                 "You talk so loud once again\n" +
-                                "'Cause it's such a perfect day"));
+                                "'Cause it's such a perfect day",""));
                         arrayCanzoni.add(new Canzone("Mu","Penso troppo a lungo, davvero\n" +
                                 "Ma io non voglio essere noioso\n" +
                                 "Ognuno ha già i suoi guai\n" +
@@ -1813,7 +1767,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "A che cosa serve svegliarsi se tu non ci sei?\n" +
                                 "\n" +
                                 "Ed ora è sabato sera e devo darci dentro\n" +
-                                "Io devo darci dentro, tu ru ru\n"));
+                                "Io devo darci dentro, tu ru ru\n",""));
                         arrayCanzoni.add(new Canzone("Corteccia (nell'up-nea)","Come sto se vedo a malapena?\n" +
                                 "Mi perdo nei giorni neri, li crei tu\n" +
                                 "Fai di me l'anima più fredda\n" +
@@ -1841,7 +1795,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Fra mille combustioni ci sei\n" +
                                 "Ma non mi avrai\n" +
                                 "Non mi avrai\n" +
-                                "Non mi avrai\n"));
+                                "Non mi avrai\n",""));
                         arrayCanzoni.add(new Canzone("Passi da gigante","L'aria depura le mie gambe\n" +
                                 "Che muoiono di freddo\n" +
                                 "Ho l'impresione che si faccia così\n" +
@@ -1860,7 +1814,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Che sanno di cipolla\n" +
                                 "Solo la carne che si mangia da sé\n" +
                                 "Può ricrescere per sempre\n" +
-                                "Può ricrescere sempre\n"));
+                                "Può ricrescere sempre\n",""));
                         break;
                     case 10:
                         arrayCanzoni.add(new Canzone("Logorrea (Esperti all'opera)","Gli esperti di moda\n" +
@@ -1885,7 +1839,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Si sente un organo vitale\n" +
                                 "\n" +
                                 "Ingoio un rospo\n" +
-                                "Ingoio un rospo"));
+                                "Ingoio un rospo",""));
                         arrayCanzoni.add(new Canzone("Luna","Dipingimi\n" +
                                 "Distorto come un angelo anormale\n" +
                                 "Che cade\n" +
@@ -1920,7 +1874,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Io e te\n" +
                                 "Niente\n" +
                                 "Conta\n" +
-                                "In fondo"));
+                                "In fondo",""));
                         arrayCanzoni.add(new Canzone("Mina","Oh Mina\n" +
                                 "Ho perso il controllo\n" +
                                 "E dopo tutto non avrò che pioggia\n" +
@@ -1949,7 +1903,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "L'aria\n" +
                                 "E brucia\n" +
                                 "Brucia con me\n" +
-                                "L'aria"));
+                                "L'aria",""));
                         arrayCanzoni.add(new Canzone("Balanite","Sono steso su un cielo-fan\n" +
                                 "Che opportunamente ho disteso per me\n" +
                                 "Ora commentami un giorno\n" +
@@ -1977,7 +1931,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Lo spero per te finta comodità\n" +
                                 "Torna la libidine prima o poi\n" +
                                 "\n" +
-                                "Ho sonno e dormo"));
+                                "Ho sonno e dormo",""));
                         arrayCanzoni.add(new Canzone("Phantastica","Racconto favole su di te\n" +
                                 "Che ascolti così preziosamente\n" +
                                 "Sei un fiore insano tu\n" +
@@ -2004,7 +1958,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "E credo di essere anormale\n" +
                                 "Ebbene non lo so\n" +
-                                "Mi vedi? Temi? Credi io ti userò?"));
+                                "Mi vedi? Temi? Credi io ti userò?",""));
                         arrayCanzoni.add(new Canzone("Elefante","Blu\n" +
                                 "L'impero è blu\n" +
                                 "È questo che mi manca\n" +
@@ -2034,7 +1988,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Mi sparo boom\n" +
                                 "Se la mia pelle è in fumo\n" +
                                 "La tua soffoca\n" +
-                                "La tua soffoca, la tua soffoca"));
+                                "La tua soffoca, la tua soffoca",""));
                         arrayCanzoni.add(new Canzone("Glamodrama","A volte lei cambia pelle\n" +
                                 "E lo confessa a me\n" +
                                 "Continuamente\n" +
@@ -2067,7 +2021,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non cambia pelle\n" +
                                 "E non è vero che\n" +
                                 "La carie più viva resti\n" +
-                                "Solo tu"));
+                                "Solo tu",""));
                         arrayCanzoni.add(new Canzone("Far Fisa","Le innocue verità\n" +
                                 "Congelano le labbra\n" +
                                 "La gente lucida non pensa\n" +
@@ -2080,7 +2034,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "In mente\n" +
                                 "In mente\n" +
                                 "\n" +
-                                "Nel niente, nel niente\n"));
+                                "Nel niente, nel niente\n",""));
                         arrayCanzoni.add(new Canzone("17 Tir Nel Cortile","Ho visto anche la neve sciogliersi di colpo e ora so, ti amo\n" +
                                 "\n" +
                                 "Ho chiesto fin troppo ed ora lo ammetto\n" +
@@ -2097,7 +2051,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ci sono cose che pesano, pesano, pesano\n" +
                                 "Ci sono cose che schiacciano\n" +
                                 "Colpiscono un cuore di piombo\n" +
-                                "Ci sono cose che pesano\n"));
+                                "Ci sono cose che pesano\n",""));
                         arrayCanzoni.add(new Canzone("40 Secondi Di Niente","Qui\n" +
                                 "Non c'è più calma\n" +
                                 "Settembre\n" +
@@ -2132,7 +2086,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Le nostre difese\n" +
                                 "Sfidano la follia\n" +
                                 "Che ormai non sa\n" +
-                                "Di niente, niente, niente, niente"));
+                                "Di niente, niente, niente, niente",""));
                         arrayCanzoni.add(new Canzone("Il Suicidio Del Samurai","Questa è una goccia\n" +
                                 "Che evapora da sé\n" +
                                 "Questa gioia che ci illude\n" +
@@ -2149,7 +2103,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Affondo in Nora\n" +
                                 "Affondo in Nora\n" +
-                                "Affondo in Nora"));
+                                "Affondo in Nora",""));
                         break;
                     case 11:
                         arrayCanzoni.add(new Canzone("Luna","Dipingimi\n" +
@@ -2186,7 +2140,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Io e te\n" +
                                 "Niente\n" +
                                 "Conta\n" +
-                                "In fondo\n"));
+                                "In fondo\n",""));
                         arrayCanzoni.add(new Canzone("Harvest (Neil Young Cover)","Did I see you down in a young girl's town\n" +
                                 "With your mother in so much pain?\n" +
                                 "I was almost there at the top of the stairs\n" +
@@ -2218,7 +2172,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "With the promise of a man\n" +
                                 "\n" +
                                 "Dream up, dream up, let me fill your cup\n" +
-                                "With the promise of a man"));
+                                "With the promise of a man",""));
                         arrayCanzoni.add(new Canzone("Le Tue Ossa Nell'altitudine","Ora le tue ossa si corrodono\n" +
                                 "Eppure stai nell'aria\n" +
                                 "E conta per me\n" +
@@ -2241,7 +2195,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Un fiume di noi\n" +
                                 "Esplode di gloria\n" +
                                 "E anche se tutto è scorretto\n" +
-                                "Adora, adorami"));
+                                "Adora, adorami",""));
                         arrayCanzoni.add(new Canzone("Apice","Lei non è qua\n" +
                                 "A parlar con me\n" +
                                 "Questa è\n" +
@@ -2262,11 +2216,11 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "C'è un demone\n" +
                                 "Conversa con me\n" +
                                 "Sfreccia su\n" +
-                                "Fra le nuvole"));
-                        arrayCanzoni.add(new Canzone("Omashee","[Strumentale]"));
+                                "Fra le nuvole",""));
+                        arrayCanzoni.add(new Canzone("Omashee","[Strumentale]",""));
                         break;
                     case 12:
-                        arrayCanzoni.add(new Canzone("Marti In The Sky","[Strumentale]"));
+                        arrayCanzoni.add(new Canzone("Marti In The Sky","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Don Calisto","In requiem\n" +
                                 "È come in un fiume, lo vedi o no?\n" +
                                 "Ora muoio\n" +
@@ -2291,7 +2245,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "In laude\n" +
                                 "In laude\n" +
                                 "In laude\n" +
-                                "In laude"));
+                                "In laude",""));
                         arrayCanzoni.add(new Canzone("Non Prendere l'Acme, Eugenio","In collera ho un grido, quanto è inutile\n" +
                                 "Perdo energie e non so perché\n" +
                                 "La spinta mi slancia, tutto è comodo\n" +
@@ -2333,7 +2287,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non prendere l’acme\n" +
                                 "Non prendere l’acme\n" +
                                 "Non prendere l’acme\n" +
-                                "Non prendere l’acme"));
+                                "Non prendere l’acme",""));
                         arrayCanzoni.add(new Canzone("Angie","Prima o poi\n" +
                                 "Mi sparerai alle spalle, Angie\n" +
                                 "Credi in ciò che fai\n" +
@@ -2361,8 +2315,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Che ne sai, semmai\n" +
                                 "Rido in lei, semmai\n" +
                                 "Nei tuoi nei io mai\n" +
-                                "Dio è gay"));
-                        arrayCanzoni.add(new Canzone("Aha","[Strumentale]"));
+                                "Dio è gay",""));
+                        arrayCanzoni.add(new Canzone("Aha","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Isacco Nucleare","Ho perso l'amore, ora so\n" +
                                 "L'ho sparso sul suolo, ora so\n" +
                                 "Se solo fossi qui parlerei di più\n" +
@@ -2382,7 +2336,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Pioggia sui fili, sono qui\n" +
                                 "Nubi d'Isacco\n" +
                                 "Le nubi d'Isacco\n" +
-                                "Le nubi d'Isacco"));
+                                "Le nubi d'Isacco",""));
                         arrayCanzoni.add(new Canzone("Caños","Peggio di noi\n" +
                                 "Non si può stare, credimi\n" +
                                 "L'alta marea\n" +
@@ -2416,7 +2370,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ma che importa\n" +
                                 "Tu mi fai\n" +
                                 "Mi brucerò\n" +
-                                "Non torneremo più"));
+                                "Non torneremo più",""));
                         arrayCanzoni.add(new Canzone("Il Gulliver","Non resisti e un po’ stai male\n" +
                                 "Non parli più\n" +
                                 "In fondo c’era poco da dire\n" +
@@ -2462,8 +2416,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Per fregare gli dei, fregare gli dei\n" +
                                 "Macroonde\n" +
                                 "Se mi amassi di più non temerei più\n" +
-                                "Macroonde"));
-                        arrayCanzoni.add(new Canzone("Faro","[Strumentale]"));
+                                "Macroonde",""));
+                        arrayCanzoni.add(new Canzone("Faro","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Muori Delay","Muori delay\n" +
                                 "Ci si tuffa in lei\n" +
                                 "Ominidee\n" +
@@ -2494,7 +2448,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Guardo la fine che fa\n" +
                                 "Deluso dalla folla il clown\n" +
                                 "Gonfio di numeri ormai\n" +
-                                "Deluso dalla folla il clown"));
+                                "Deluso dalla folla il clown",""));
                         arrayCanzoni.add(new Canzone("Trovami Un Modo Semplice Per Uscirne","Non cresci più\n" +
                                 "A tratti è normale\n" +
                                 "E non si arrende più\n" +
@@ -2524,8 +2478,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non riuscirò, non riuscirò\n" +
                                 "\n" +
                                 "Come puoi vivere a testa in giù?\n" +
-                                "Come puoi vivere a testa in giù?"));
-                        arrayCanzoni.add(new Canzone("Opanopono","[Strumentale]"));
+                                "Come puoi vivere a testa in giù?",""));
+                        arrayCanzoni.add(new Canzone("Opanopono","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Il Caos Strisciante","Credo di far\n" +
                                 "Parte di un incubo\n" +
                                 "Ora io so\n" +
@@ -2548,12 +2502,12 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Per sempre nei guai\n" +
                                 "Gonfio di lividi\n" +
                                 "Come in un film\n" +
-                                "Non cambierà mai"));
+                                "Non cambierà mai",""));
                         arrayCanzoni.add(new Canzone("Was?","Sono alle Hawaii e arrivi tu\n" +
                                 "Dentro di me arrivi tu\n" +
                                 "Tanto alla fine ciò che fai\n" +
                                 "Credimi amore non basta mai\n" +
-                                "Credimi amore non basta mai\n"));
+                                "Credimi amore non basta mai\n",""));
                         arrayCanzoni.add(new Canzone("Sotto prescrizione del dott. Huxley","Sfiorirai\n" +
                                 "Puoi perdere i chili che hai, ma\n" +
                                 "Sfiorirai\n" +
@@ -2596,7 +2550,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Vivi nell'aria\n" +
                                 "Vivi nell'aria\n" +
-                                "Vivi nell'aria"));
+                                "Vivi nell'aria","Il titolo si riferisce allo scrittore britannico Aldous Huxley, famoso per fare utilizzo di sostanze allucinogene di cui poi descriveva gli effetti e le considerazioni nei suoi saggi, come ad esempio Le porte della percezione.\n" +
+                                "Il suddetto saggio ha ispirato anche il nome, numerose canzoni e concetti della band rock statunitense The Doors."));
                         break;
                     case 13:
                         arrayCanzoni.add(new Canzone("Caños","Peggio di noi\n" +
@@ -2632,8 +2587,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ma che importa\n" +
                                 "Tu mi fai\n" +
                                 "Mi brucerò\n" +
-                                "Non torneremo più"));
-                        arrayCanzoni.add(new Canzone("Malaga","[Strumentale]"));
+                                "Non torneremo più",""));
+                        arrayCanzoni.add(new Canzone("Malaga","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("L'ora è buia","Tu non puoi\n" +
                                 "Tu non lo fai\n" +
                                 "Ma sei qui\n" +
@@ -2681,8 +2636,12 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "In un bar\n" +
                                 "Fra di noi\n" +
                                 "Ti convincerò\n" +
-                                "Ti convincerò"));
-                        arrayCanzoni.add(new Canzone("Párabellium","[Strumentale]"));
+                                "Ti convincerò",""));
+                        arrayCanzoni.add(new Canzone("Párabellium","[Strumentale]","“Párabellium” (o “Parabellum”) è stata scritta da D.RaD, programmatore degli Almamegretta scomparso nel 2004.\n" +
+                                "\n" +
+                                "I Verdena hanno ripreso in mano il brano aggiungendoci gli strumenti ora presenti.\n" +
+                                "\n" +
+                                "Inizialmente la canzone doveva finire in una compilation tributo per celebrare a D.RaD, ma il gruppo non riuscì a realizzare la loro versione in tempo.\n"));
                         arrayCanzoni.add(new Canzone("His latest flame (Marie's the name)","A very old friend came by today\n" +
                                 "Because he was telling everyone in town\n" +
                                 "About the love that he just found\n" +
@@ -2701,26 +2660,14 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Would you believe that yesterday\n" +
                                 "This girl was in my arms and swore to me\n" +
                                 "She'd be mine eternally\n" +
-                                "And Marie's the name of his latest flame"));
-                        arrayCanzoni.add(new Canzone("Fluido","Paradiso enorme\nNessuno può capirmi più\nE non so darmi più risposte\nGesù\n\nAl buio il fiume non c'è\nIl fiume al buio non si vede\nIncolla i fiori nella sabbia\nGesù\nGesù\nGesù\nGesù\n\nOra è meglio, ora nuoto\nSicuramente come non crederai\nAh, ah"));
+                                "And Marie's the name of his latest flame",""));
+                        arrayCanzoni.add(new Canzone("Fluido","Paradiso enorme\nNessuno può capirmi più\nE non so darmi più risposte\nGesù\n\nAl buio il fiume non c'è\nIl fiume al buio non si vede\nIncolla i fiori nella sabbia\nGesù\nGesù\nGesù\nGesù\n\nOra è meglio, ora nuoto\nSicuramente come non crederai\nAh, ah",""));
                         break;
                     case 14:
-                        arrayCanzoni.add(new Canzone("Scegli me (Un mondo che tu non vuoi)","Scegli me\n" +
-                                "Io non posso credere\n" +
-                                "Di averti qui con me\n" +
-                                "In un mondo che tu non vuoi\n" +
-                                "E mentre parlo\n" +
-                                "Rispondi ad ogni mio perché\n" +
-                                "Riscoprirò chi sei\n" +
+                        arrayCanzoni.add(new Canzone("Scegli me (Un mondo che tu non vuoi)","Scegli me\nIo non posso credere\nDi averti qui con me\nIn un mondo che tu non vuoi\nE mentre parlo\nRispondi ad ogni mio perché\nRiscoprirò chi sei\n\nProvo a fingere\nPer lei io mi deflagrerei\nNon mi senti ed io non parlo\nRimangono le nuvole\nSiamo un giorno senza luce ormai\nMa scegli me\nUn giorno senza luce ormai\n",""));
+                        arrayCanzoni.add(new Canzone("Loniterp","Sparirò come senza rimpianti\nJennifer saltà giù\nTriste sorte, il mio treno galoppa\nI raggi ormai c'inseguono\nCosa vuoi? Siamo scimmie terrestri\nFa bene all'immagine\nTriste a volte come solo l'inferno è\nLa mia civiltà è sensibile\n\nE so che mi spingerai\nDove tu non sei più\n\nMa ti vedo qui rinchiusa in me\nMa ti vedo qui rinchiusa in me\nE ti vedo qui rinchiusa in me\nChiusa in me\n\nTu lo sai, siamo piume nel vento\nTi prende e non torni più\nSarà che la mia mente galoppa\nE i raggi ormai c'inseguono","Il titolo è un anagramma del gruppo Interpol, apprezzato dai Verdena, da cui riprende le sonorità.\n" +
                                 "\n" +
-                                "Provo a fingere\n" +
-                                "Per lei io mi deflagrerei\n" +
-                                "Non mi senti ed io non parlo\n" +
-                                "Rimangono le nuvole\n" +
-                                "Siamo un giorno senza luce ormai\n" +
-                                "Ma scegli me\n" +
-                                "Un giorno senza luce ormai\n"));
-                        arrayCanzoni.add(new Canzone("Loniterp","Sparirò come senza rimpianti\nJennifer saltà giù\nTriste sorte, il mio treno galoppa\nI raggi ormai c'inseguono\nCosa vuoi? Siamo scimmie terrestri\nFa bene all'immagine\nTriste a volte come solo l'inferno è\nLa mia civiltà è sensibile\n\nE so che mi spingerai\nDove tu non sei più\n\nMa ti vedo qui rinchiusa in me\nMa ti vedo qui rinchiusa in me\nE ti vedo qui rinchiusa in me\nChiusa in me\n\nTu lo sai, siamo piume nel vento\nTi prende e non torni più\nSarà che la mia mente galoppa\nE i raggi ormai c'inseguono"));
+                                "Il finale del brano è un frammento di una trasmissione radiofonica dell'est Europa (probabilmente bulgara o slovena) di cui è possibile prendere la frequenza dall'Henhouse Studio.\n"));
                         arrayCanzoni.add(new Canzone("Per sbaglio","Era un acido\n" +
                                 "Sale in noi\n" +
                                 "Forse in un caffè, più di un'ora fa\n" +
@@ -2735,7 +2682,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Più ti guardo e più mi sembra impossibile\n" +
                                 "Che stai con me\n" +
                                 "Non esisto e non ci sono\n" +
-                                "Se fossi te io me ne andrei\n"));
+                                "Se fossi te io me ne andrei\n",""));
                         arrayCanzoni.add(new Canzone("Mi coltivo","Cresco e sono nei guai\n" +
                                 "Proprio qui, fra le briciole e niente più\n" +
                                 "Stai e sei qui\n" +
@@ -2756,7 +2703,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Fisso al mondo\n" +
                                 "Io dopotutto mi rianimerò\n" +
                                 "Mi coltiverò, continuerò\n" +
-                                "Mi rianimerò, coltiverò\n"));
+                                "Mi rianimerò, coltiverò\n",""));
                         arrayCanzoni.add(new Canzone("Razzi arpia inferno e fiamme","Non vivo in me\n" +
                                 "Non so chi sei\n" +
                                 "Denti per tre io non ho più\n" +
@@ -2771,8 +2718,10 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Razzi, arpie, danni miei\n" +
                                 "Più che mai danni miei\n" +
                                 "Pause nel tempo riavrai\n" +
-                                "Mentre la mente è in orbita\n"));
-                        arrayCanzoni.add(new Canzone("Adoratorio","[Strumentale]"));
+                                "Mentre la mente è in orbita\n","“Razzi Arpia Inferno E Fiamme” è stata pubblicata il 18 gennaio 2011, come primo singolo ad anticipare l'uscita dell'album.\n" +
+                                "\n" +
+                                "Il testo è frutto di una collaborazione di Alberto Ferrari con Roberto Longaretti, cantante del gruppo bergamasco Spread, nonché in seguito marito della bassista dei Verdena Roberta Sammarelli.\n"));
+                        arrayCanzoni.add(new Canzone("Adoratorio","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Miglioramento","Ora puoi, il fisico ce l'hai\n" +
                                 "Per fare la rivoluzione che aspetto\n" +
                                 "Niente dirò e tu non capirai\n" +
@@ -2796,7 +2745,9 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Facile\n" +
                                 "\n" +
                                 "Ora puoi, il fisico ce l'hai\n" +
-                                "Per fare la rivoluzione che aspetto"));
+                                "Per fare la rivoluzione che aspetto","“Miglioramento” parla di un di una rivoluzione interiore, di un miglioramento personale.\n" +
+                                "\n" +
+                                "Il brano è stato scelto come terzo singolo estratto dall'album. Il videoclip, pubblicato in esclusiva su Wired.it il 9 novembre 2011, contiene immagini del film messicano Santa Claus del 1959, utilizzato in quanto i diritti d'autore erano scaduti.\n"));
                         arrayCanzoni.add(new Canzone("Il nulla di O.","Resta giù, superando ogni limite\n" +
                                 "Lei soffre ma la pena può ridere\n" +
                                 "Ci toccherà combattere la noia\n" +
@@ -2812,7 +2763,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Che stiamo immobili\n" +
                                 "Restiamo immobili\n" +
                                 "Finchè verrà\n" +
-                                "A salvarci\n"));
+                                "A salvarci\n",""));
                         arrayCanzoni.add(new Canzone("Lui gareggia","La inseguirò, restar non so\n" +
                                 "Che non è magico se non sei più tu\n" +
                                 "Irradiami, irradiati\n" +
@@ -2820,7 +2771,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Come un eroe, lui gareggia\n" +
                                 "Stereo a go-go, lui gareggia\n" +
                                 "Fuori di sé, lui gareggia\n" +
-                                "Lui gareggia, lui gareggia"));
+                                "Lui gareggia, lui gareggia",""));
                         arrayCanzoni.add(new Canzone("Le scarpe volanti","È come pensavo, di ridere non smetterò\n" +
                                 "In questa guerra che vincere io non potrò\n" +
                                 "Credimi, è dura, ma rido\n" +
@@ -2841,7 +2792,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E forse cambiare dovrei\n" +
                                 "Cosa non ti farei che tu non sai\n" +
                                 "Fermerò anche uno yacht\n" +
-                                "Perchè un mare di nebbia è quello che ho\n"));
+                                "Perchè un mare di nebbia è quello che ho\n",""));
                         arrayCanzoni.add(new Canzone("Castelli per aria","Non so perchè immagino\n" +
                                 "Tu sì, lo sai e immagino\n" +
                                 "Solo, solo sarò\n" +
@@ -2855,7 +2806,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E so che non passerà\n" +
                                 "Forse lei spazio non ha\n" +
                                 "Nella realtà\n" +
-                                "Non so perchè immagino\n"));
+                                "Non so perchè immagino\n",""));
                         arrayCanzoni.add(new Canzone("Sorriso in spiaggia pt. 1","Dani è di più, più di un hippie, è un grillo\n" +
                                 "Giuda è con me, farò bene a non dirlo\n" +
                                 "Mari è giù in spiaggia, e il sole non c'è\n" +
@@ -2874,7 +2825,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Uh, lei insorge\n" +
                                 "Uh, lei insorge\n" +
                                 "\n" +
-                                "Non credi poi dovremmo correre di più"));
+                                "Non credi poi dovremmo correre di più",""));
                         arrayCanzoni.add(new Canzone("Sorriso in spiaggia pt. 2","Sento il suo sorriso su me\n" +
                                 "È come non vedessi più\n" +
                                 "È vivo, fra i raggi esplode il sole\n" +
@@ -2891,7 +2842,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non fare il clown\n" +
                                 "Saltando le onde\n" +
                                 "Mi inviterai, e ci sto\n" +
-                                "Ci sto, ci sto..."));
+                                "Ci sto, ci sto...",""));
                         arrayCanzoni.add(new Canzone("Attonito","Sarai così serio, suoni su Facebook\n" +
                                 "Come un'icona vive dentro di te, poi\n" +
                                 "Nessun livido, nuoti sul ghiaccio\n" +
@@ -2907,7 +2858,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Lo sguardo attonito, ti tradisce\n" +
                                 "Col kit autorico, sai di andare bene\n" +
-                                "Sai di andare bene"));
+                                "Sai di andare bene",""));
                         arrayCanzoni.add(new Canzone("È solo lunedì","No, nessuno sa che io vivrò senza di lei\n" +
                                 "Sì, io vivrò\n" +
                                 "Sta, sta ancora su ma\n" +
@@ -2920,7 +2871,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "È solo lunedì\n" +
                                 "\n" +
                                 "No, nessuno sa che io vivrò senza di lei\n" +
-                                "Sì, io vivrò\n"));
+                                "Sì, io vivrò\n",""));
                         arrayCanzoni.add(new Canzone("Tu e me","È inutile e non potrei\n" +
                                 "Fermare l'idea che viene e va\n" +
                                 "Tu e me\n" +
@@ -2934,7 +2885,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Tu non sai\n" +
                                 "Vai così, verso il blu\n" +
                                 "\n" +
-                                "(Thank You Johnny)"));
+                                "(Thank You Johnny)",""));
                         arrayCanzoni.add(new Canzone("Badea blues","Bevi Giuda\n" +
                                 "Don Callisto, rimbomba il suo blues\n" +
                                 "Elisa corre e tu sempre lì\n" +
@@ -2952,7 +2903,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E ignora gli occhi miei\n" +
                                 "E ignora gli occhi miei\n" +
                                 "E ignora gli occhi\n" +
-                                "Ignora gli occhi miei..."));
+                                "Ignora gli occhi miei...","Nel saggio Un mondo del tutto differente, Alberto afferma di aver redatto il testo mettendo “(…) in fila alcune frasi allucinanti dei pazzi della nostra valle”.\n"));
                         arrayCanzoni.add(new Canzone("Nuova luce","L'amore in un attimo\n" +
                                 "Come in un sogno arriverà\n" +
                                 "Correndo fra gli alberi in questa notte buia\n" +
@@ -2969,7 +2920,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non vedi l'ombra\n" +
                                 "Su noi che siamo qui\n" +
                                 "Comodi\n" +
-                                "L'amore conta, sembrava inutile fino a ieri"));
+                                "L'amore conta, sembrava inutile fino a ieri",""));
                         arrayCanzoni.add(new Canzone("Grattacielo","Forse non capirai mai\n" +
                                 "Tu distrai le mie parole\n" +
                                 "Un fulmine a ciel sereno sarà\n" +
@@ -2983,8 +2934,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Solo se tu vuoi, solo se tu vuoi\n" +
                                 "\n" +
                                 "Forse non capirai mai\n" +
-                                "Tu distrai le mie parole\n"));
-                        arrayCanzoni.add(new Canzone("A Capello","[Strumentale]"));
+                                "Tu distrai le mie parole\n",""));
+                        arrayCanzoni.add(new Canzone("A Capello","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Rossella roll over","Quand'ero giovane era tutto diverso\n" +
                                 "Lo sai Rossella\n" +
                                 "Novità valide non ne ho\n" +
@@ -3009,7 +2960,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Se sai di vincere..\n" +
                                 "\n" +
                                 "Prendi e Vai Rossella, lontano da me\n" +
-                                "Proprio come tu vuoi\n"));
+                                "Proprio come tu vuoi\n",""));
                         arrayCanzoni.add(new Canzone("Canzone ostinata","Oh mio Dio\n" +
                                 "Il mondo mi assopiva\n" +
                                 "Poi ho trovato lei\n" +
@@ -3027,15 +2978,15 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ne uscirò, ne uscirò\n" +
                                 "\n" +
                                 "Sai quanto vale insistere tra noi\n" +
-                                "Come se fossimo ancora insieme\n"));
-                        arrayCanzoni.add(new Canzone("12,5 mg","[Strumentale]"));
+                                "Come se fossimo ancora insieme\n",""));
+                        arrayCanzoni.add(new Canzone("12,5 mg","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Sul ciglio","Cosa ci fai con me?\n" +
                                 "Sul ciglio stai\n" +
                                 "Ci proverai ma...\n" +
                                 "M'illumino\n" +
                                 "Come le redini in me\n" +
                                 "Sì, lo può dire solo lei\n" +
-                                "Così tu fai e il futuro avrai\n"));
+                                "Così tu fai e il futuro avrai\n",""));
                         arrayCanzoni.add(new Canzone("Letto di mosche","Sospinge gli occhi miei\n" +
                                 "E farti a pezzi io non potrei\n" +
                                 "Tu sola in armonia\n" +
@@ -3050,8 +3001,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Sei insetti dormono\n" +
                                 "E spariscono su di noi\n" +
-                                "Su di noi, su di noi"));
-                        arrayCanzoni.add(new Canzone("La volta","[Strumentale]"));
+                                "Su di noi, su di noi",""));
+                        arrayCanzoni.add(new Canzone("La volta","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Lei disse (Un mondo del tutto differente)","Disse c'è un modo eppure freme\n" +
                                 "É un luminarium fra noi\n" +
                                 "Distanti più di sempre\n" +
@@ -3070,7 +3021,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "(disse c'è un temporale)\n" +
                                 "In un mondo che sai\n" +
                                 "Non si placherà mai\n" +
-                                "Amami"));
+                                "Amami",""));
                         break;
                     case 15:
                         arrayCanzoni.add(new Canzone("Rossella Roll Over (Live)","Uh uh oh\n" +
@@ -3107,7 +3058,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Prendi e vai Rossella, lontano da me, uh ah\n" +
                                 "Proprio come tu vuoi\n" +
                                 "\n" +
-                                "Questa è la canzone dei mostri\n"));
+                                "Questa è la canzone dei mostri\n",""));
                         arrayCanzoni.add(new Canzone("Le Scarpe Volanti (Live)","È come pensavo, di ridere non smetterò\n" +
                                 "In questa guerra che vincere io non potrò\n" +
                                 "Credimi, è dura, ma rido\n" +
@@ -3133,7 +3084,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E forse cambiare dovrei\n" +
                                 "Cosa non ti farei che tu non sai\n" +
                                 "Fermerò anche uno yacht\n" +
-                                "Perché un mare di nebbia è quello che ho"));
+                                "Perché un mare di nebbia è quello che ho",""));
                         arrayCanzoni.add(new Canzone("È solo lunedì (Live)","No, nessuno sa che\n" +
                                 "Io vivrò senza di lei\n" +
                                 "Sì, io vivrò, uh\n" +
@@ -3179,8 +3130,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ya ihihihih, wow\n" +
                                 "Ya ihihihih, wow\n" +
                                 "Ya ihohuhuh, wow\n" +
-                                "Ya ihihihih, bowowowowowow"));
-                        arrayCanzoni.add(new Canzone("Segale cornuta","[Strumentale]"));
+                                "Ya ihihihih, bowowowowowow",""));
+                        arrayCanzoni.add(new Canzone("Segale cornuta","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Inutilniente","Guardo lei, lei non sa\n" +
                                 "Guardo lei, lei non sa\n" +
                                 "Lei non sa\n" +
@@ -3195,10 +3146,10 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Solo lei, paura dovrò\n" +
                                 "In quello che ho, che niente so\n" +
                                 "E niente\n" +
-                                "Ah, ah"));
-                        arrayCanzoni.add(new Canzone("Baby I Love You","Lyrics for this song have yet to be released"));
-                        arrayCanzoni.add(new Canzone("Optical (Demo)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("A capello (Demo)","[Strumentale]"));
+                                "Ah, ah",""));
+                        arrayCanzoni.add(new Canzone("Baby I Love You","Lyrics for this song have yet to be released",""));
+                        arrayCanzoni.add(new Canzone("Optical (Demo)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("A capello (Demo)","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Razzi arpia inferno e fiamme (alternative version)","Non vivo in me\n" +
                                 "Non so chi sei\n" +
                                 "Denti per tre io non ho più\n" +
@@ -3213,7 +3164,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Razzi, arpie, danni miei\n" +
                                 "Più che mai danni miei\n" +
                                 "Pause nel tempo riavrai\n" +
-                                "Mentre la mente è in orbita\n"));
+                                "Mentre la mente è in orbita\n",""));
                         arrayCanzoni.add(new Canzone("Razzi arpia inferno e fiamme (Aucan remix)","Non vivo in me\n" +
                                 "Non so chi sei\n" +
                                 "Denti per tre io non ho più\n" +
@@ -3228,7 +3179,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Razzi, arpie, danni miei\n" +
                                 "Più che mai danni miei\n" +
                                 "Pause nel tempo riavrai\n" +
-                                "Mentre la mente è in orbita"));
+                                "Mentre la mente è in orbita",""));
                         break;
                     case 16:
                         arrayCanzoni.add(new Canzone("Ho Una Fissa","Svieni fra noi\n" +
@@ -3259,7 +3210,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Già, illudere può\n" +
                                 "Ed aspettare non so\n" +
                                 "Di certo illudere, di certo uccidere\n" +
-                                "Ed aspettare non so"));
+                                "Ed aspettare non so",""));
                         arrayCanzoni.add(new Canzone("Puzzle","T'investirò\n" +
                                 "Eh si che ho perso ogni merito\n" +
                                 "Mi includerai mai\n" +
@@ -3300,7 +3251,9 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Iniettami aria\n" +
                                 "\n" +
                                 "Se sogni è meglio poi\n" +
-                                "Che nulla ti tiene qui"));
+                                "Che nulla ti tiene qui","Il testo di “Puzzle” sembra parlare di una relazione finita, un incastro di ricordi riguardo ad una storia terminata, in cui il protagonista non si da pace. Nel brano i pensieri e le immagini si affiancano come tessere di un puzzle per l'appunto.\n" +
+                                "Nel distacco la cosa che non si riesce ad accettare è l'indifferenza, l'apatia nei confronti di una persona un tempo amata. Nonostante la relazione sia finita, la voce narrante vuole poter suscitare ancora qualcosa nell'altro, e se ciò può non essere un'emozione positiva, si accontenta dell'odio, della rabbia, del timore, purchè non ci sia indifferenza totale, di fronte ad una disfatta che appare tuttavia inevitabile.\n" +
+                                "L'atmosfera del brano e del testo ricorda, per analogia, quella di “Caños”, contenuta nell'album Requiem del 2007."));
                         arrayCanzoni.add(new Canzone("Un Po’ Esageri","Come la pensai\n" +
                                 "È un casino ormai e tu sai\n" +
                                 "Non fai miracoli\n" +
@@ -3344,7 +3297,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Stai sulle rocce\n" +
                                 "Ti ferirai\n" +
                                 "So che vivi a volte\n" +
-                                "Ti ferirai"));
+                                "Ti ferirai",""));
                         arrayCanzoni.add(new Canzone("Sci desertico","Non ci puoi restare fermo mai\n" +
                                 "Dici che non siamo comodi\n" +
                                 "Come ieri ancora tu ci sei\n" +
@@ -3377,15 +3330,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Tu puoi dimostrare che\n" +
                                 "Solo qui risalirò\n" +
                                 "Ogni giorno che vorrai\n" +
-                                "Credimi ci proverò\n" +
-                                "Voglio dimostrare che\n" +
-                                "\n" +
-                                "Oh no\n" +
-                                "Che a sci desertico\n" +
-                                "Ci si diverte\n" +
-                                "A sci desertico\n" +
-                                "Ci si diverte, ci si diverte, ci si diverte, ci si diverte\n" +
-                                "Uuuuh ehi uuuuh ehi"));
+                                "Credimi ci proverò\nVoglio dimostrare che\n\nOh no\nChe a sci desertico\nCi si diverte\nA sci desertico\nCi si diverte, ci si diverte, ci si diverte, ci si diverte\nUuuuh ehi uuuuh ehi",""));
                         arrayCanzoni.add(new Canzone("Nevischio","Io non so perchè\n" +
                                 "Ma ti muovi dentro me\n" +
                                 "E non so se tornerai\n" +
@@ -3414,7 +3359,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Mi dirai che senza un fine non ci riesco a stare\n" +
                                 "Mi dirai che senza un fine non ci riesco a stare\n" +
-                                "Senza un fine non ci riesco a stare\n"));
+                                "Senza un fine non ci riesco a stare\n",""));
                         arrayCanzoni.add(new Canzone("Rilievo","Anima in pena\n" +
                                 "Sudi davvero\n" +
                                 "Giurami che sei\n" +
@@ -3452,7 +3397,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Già ti ostini però\n" +
                                 "Mai più nè si, nè no\n" +
                                 "Lo giuro ho un mantra in me\n" +
-                                "Lo giuro ho un mantra in me"));
+                                "Lo giuro ho un mantra in me",""));
                         arrayCanzoni.add(new Canzone("Diluvio","Di nuovo scompaio se te ne vai\n" +
                                 "Insieme noi siamo pari\n" +
                                 "Su di noi non crescerà un mai\n" +
@@ -3480,7 +3425,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Insieme noi siamo pari\n" +
                                 "Ho un brivido di già\n" +
                                 "Ho un brivido di già\n" +
-                                "Yeah yeah yeah"));
+                                "Yeah yeah yeah",""));
                         arrayCanzoni.add(new Canzone("Derek","Vera tu\n" +
                                 "Tornerai mai più?\n" +
                                 "A stare con me\n" +
@@ -3531,7 +3476,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Derek\n" +
                                 "Mai ti raggiungerò\n" +
                                 "Tu mi ami o no?\n" +
-                                "Derek turururu"));
+                                "Derek turururu",""));
                         arrayCanzoni.add(new Canzone("Vivere Di Conseguenza","Insieme a chi?\n" +
                                 "Tu già mi agiti\n" +
                                 "Immergersi\n" +
@@ -3568,7 +3513,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ooh non eri qui invano\n" +
                                 "Credimi non è così che ti voglio\n" +
                                 "Che ci rimane?\n" +
-                                "Eh si che mi rincresce\n"));
+                                "Eh si che mi rincresce\n",""));
                         arrayCanzoni.add(new Canzone("Alieni Fra Di Noi","Quello fra noi cos’è?\n" +
                                 "Vivere negli occhi sai non serve in sè\n" +
                                 "Provaci a testa in giù\n" +
@@ -3588,7 +3533,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "È solo un miraggio in più\n" +
                                 "Gettami nel fango e poi\n" +
                                 "Non c’è da ridere\n" +
-                                "Agire non so\n"));
+                                "Agire non so\n",""));
                         arrayCanzoni.add(new Canzone("Contro La Ragione","Mi segnerò un gol\n" +
                                 "Bene non prende\n" +
                                 "Dagli un attimo e poi\n" +
@@ -3620,7 +3565,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ma se sogno un film\n" +
                                 "Ci resto, ci resto\n" +
                                 "Ed in fondo anch’io svanirò\n" +
-                                "E andremo ancora in là"));
+                                "E andremo ancora in là",""));
                         arrayCanzoni.add(new Canzone("Inno Del Perdersi","Hai più sonno o troppe rughe c’hai\n" +
                                 "Non sei un poser\n" +
                                 "Collabori\n" +
@@ -3655,7 +3600,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ma perché?\n" +
                                 "Perchè no, tu non sei come un fiume che brulica, no!\n" +
                                 "Nessuna gloria\n" +
-                                "Nessuna furia"));
+                                "Nessuna furia",""));
                         arrayCanzoni.add(new Canzone("Funeralus","S'instaurerà sopra di noi\n" +
                                 "Cosa vuoi di peggio?\n" +
                                 "Niente panico\n" +
@@ -3685,7 +3630,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ti prego divorami\n" +
                                 "Non è strano\n" +
                                 "Per noi\n" +
-                                "Per noi\n"));
+                                "Per noi\n",""));
                         break;
                     case 17:
                         arrayCanzoni.add(new Canzone("Cannibale","Tu Simona lo sai\n" +
@@ -3717,7 +3662,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non sento fatica in me\n" +
                                 "Piove e ritrovo gli Dei\n" +
                                 "Consolami e non farmi male\n" +
-                                "Consumerai ciò che rimane"));
+                                "Consumerai ciò che rimane",""));
                         arrayCanzoni.add(new Canzone("Dymo","In bilico e non vorrei\n" +
                                 "Trovami un medico\n" +
                                 "E non rido più e i sogni sono neri\n" +
@@ -3756,7 +3701,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Sciocco onirico\n" +
                                 "Oggi sei fanatico\n" +
                                 "Mediti un mai\n" +
-                                "Mediti un mai"));
+                                "Mediti un mai",""));
                         arrayCanzoni.add(new Canzone("Colle immane","Che sciocco io però\n" +
                                 "Credo nelle favole\n" +
                                 "Insetto mitico\n" +
@@ -3790,7 +3735,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Rivedrai\n" +
                                 "Come puoi\n" +
                                 "Cambierai\n" +
-                                "E ciò che sembra è\n"));
+                                "E ciò che sembra è\n",""));
                         arrayCanzoni.add(new Canzone("Un blu sincero","Uomo ormai\n" +
                                 "È un segno in più che dai\n" +
                                 "Rinchiudi il sole e dormi\n" +
@@ -3832,7 +3777,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Di quello che sogni\n" +
                                 "Di quello che vuoi\n" +
                                 "Di quello che vuoi\n" +
-                                "Di quello che\n"));
+                                "Di quello che\n",""));
                         arrayCanzoni.add(new Canzone("Identikit","Che male c'è?\n" +
                                 "Vivo dentro di te\n" +
                                 "Immobile io sarei\n" +
@@ -3855,7 +3800,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Stacci ancora qui\n" +
                                 "Sperpera i tuoi sì\n" +
                                 "Spegni così\n" +
-                                "La tua ragione\n"));
+                                "La tua ragione\n",""));
                         arrayCanzoni.add(new Canzone("Fuoco amico I","Togli un mai\n" +
                                 "Dai un sì se puoi\n" +
                                 "E sì è ciò che dai\n" +
@@ -3902,7 +3847,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Dì cose che sai\n" +
                                 "Sì, però\n" +
                                 "A chi ti appoggerai?\n" +
-                                "Sei quello che vuoi, mio eroe\n"));
+                                "Sei quello che vuoi, mio eroe\n",""));
                         arrayCanzoni.add(new Canzone("Fuoco amico II (pela i miei tratti)","Grandissimo omaggio, finalmente atteso, vieni qui\n" +
                                 "Si traduce nella luce, lo immagini?\n" +
                                 "\n" +
@@ -3912,7 +3857,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Cosa ci vuole dai\n" +
                                 "Nessun guerriero può arrendersi\n" +
                                 "Ma supera i monti come un colibrì\n" +
-                                "Sciocco odiarsi, pela i miei tratti ed amami\n"));
+                                "Sciocco odiarsi, pela i miei tratti ed amami\n",""));
                         arrayCanzoni.add(new Canzone("Nera visione","Trova un pensiero, includilo\n" +
                                 "Esso appare in incognito\n" +
                                 "Va a gonfie vele\n" +
@@ -3937,7 +3882,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Folle idea, insieme cresci il mio errore\n" +
                                 "È come non diresti mai, uh, oh\n" +
                                 "Prova a restare, prestagli il cuore\n" +
-                                "E credi non ha smesso mai"));
+                                "E credi non ha smesso mai",""));
                         arrayCanzoni.add(new Canzone("Troppe scuse","Con me hai vinto tu\n" +
                                 "Cosa ti riempie di più\n" +
                                 "Se ci penso è ipocrisia\n" +
@@ -3975,8 +3920,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ti scorderai che qui si muore\n" +
                                 "E correrai agli sci\n" +
                                 "Ci stai in un filo di vento, dai\n" +
-                                "Proverai a volare, oh no"));
-                        arrayCanzoni.add(new Canzone("Natale con Ozzy","[Strumentale]"));
+                                "Proverai a volare, oh no",""));
+                        arrayCanzoni.add(new Canzone("Natale con Ozzy","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Lady Hollywood","Provaci un po'\n" +
                                 "Spegni chi sei\n" +
                                 "Provaci un po'\n" +
@@ -4000,7 +3945,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E' sera e fai finta di uscire\n" +
                                 "Consumerai pure il sole\n" +
                                 "E' su di noi, che caldo fa\n" +
-                                "E' pomeriggio ormai"));
+                                "E' pomeriggio ormai",""));
                         arrayCanzoni.add(new Canzone("Caleido","Conopa\n" +
                                 "Il mio cuore è una giungla\n" +
                                 "E dici che\n" +
@@ -4053,7 +3998,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Magnifico\n" +
                                 "Per nessuno di noi\n" +
                                 "Mai lo po...\n" +
-                                "Per nessuno di noi"));
+                                "Per nessuno di noi",""));
                         arrayCanzoni.add(new Canzone("Waltz del Bounty","Colpa mia, cosa fai?\n" +
                                 "Giusto un Bounty e te ne andrai\n" +
                                 "E non riuscirò a prenderti al volo\n" +
@@ -4080,7 +4025,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Destino di lacrime\n" +
                                 "Se trovi un attimo\n" +
                                 "Shiva riprendimi\n" +
-                                "Prima che arrivi il sole"));
+                                "Prima che arrivi il sole","“Waltz del Bounty” è la tredicesima e ultima traccia di “Endkadenz Vol.2”, settimo album dei Verdena.\n\nIl titolo ha due riferimenti espliciti: waltz sta per valzer, mentre il Bounty è lo snack al cocco.\n"));
                         break;
                     case 18:
                         arrayCanzoni.add(new Canzone("Ovunque","È buio ormai\n" +
@@ -4111,7 +4056,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Ovunque sei\n" +
                                 "Ovunque sei ci sei\n" +
                                 "Ovunque sei\n" +
-                                "Ovunque"));
+                                "Ovunque",""));
                         arrayCanzoni.add(new Canzone("Valvonauta","Mi affogherei\n" +
                                 "E anche se non mi viene\n" +
                                 "Io senza lei\n" +
@@ -4142,7 +4087,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Sto bene se non torni mai\n" +
                                 "Sto bene se non torni mai\n" +
-                                "Sto bene se non torni mai, mai"));
+                                "Sto bene se non torni mai, mai",""));
                         arrayCanzoni.add(new Canzone("Pixel","No io non so com'è\n" +
                                 "Ma mi sembra inutile\n" +
                                 "Dirti di più perché\n" +
@@ -4172,7 +4117,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Un po' di lei\n" +
                                 "Dio contro di me\n" +
                                 "È come vorrei\n" +
-                                "Sfiorarti di più..."));
+                                "Sfiorarti di più...",""));
                         arrayCanzoni.add(new Canzone("L’infinita Gioia Di Henry Bahus","Io non ti avrò mai\n" +
                                 "Ma sento che c'è\n" +
                                 "Mi sfiori\n" +
@@ -4209,7 +4154,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Io come lei\n" +
                                 "E dentro me\n" +
                                 "E dentro me\n" +
-                                "Io come lei"));
+                                "Io come lei",""));
                         arrayCanzoni.add(new Canzone("Vera","Vera dormi un pò\n" +
                                 "Ma non sei così\n" +
                                 "Dolce come sei\n" +
@@ -4232,7 +4177,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E più in là\n" +
                                 "Più in là\n" +
                                 "Io lo so\n" +
-                                "Tu mi fai\n"));
+                                "Tu mi fai\n",""));
                         arrayCanzoni.add(new Canzone("Dentro Sharon","Tremi un pò\n" +
                                 "E non è facile\n" +
                                 "Urlare nei rumori tuoi\n" +
@@ -4264,7 +4209,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Ebbene posso insistere\n" +
                                 "Confusione...\n" +
-                                "Confusione..."));
+                                "Confusione...",""));
                         arrayCanzoni.add(new Canzone("Caramel Pop","Caramel pop\n" +
                                 "Caramel pop\n" +
                                 "Caramel pop\n" +
@@ -4274,7 +4219,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E che non hai\n" +
                                 "Tutto quello che sei\n" +
                                 "O che non sei mai stato\n" +
-                                "Tutto\n"));
+                                "Tutto\n",""));
                         arrayCanzoni.add(new Canzone("Viba","Sono sveglio o forse no\n" +
                                 "Ma non m'importa\n" +
                                 "Tu sei l'unica per me\n" +
@@ -4308,7 +4253,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "In fondo tu mi vuoi\n" +
                                 "E se mi vuoi\n" +
                                 "Io volo eeeeeeh\n" +
-                                "Io volo eeeeeeh"));
+                                "Io volo eeeeeeh",""));
                         arrayCanzoni.add(new Canzone("Ultranoia","No\n" +
                                 "Non ci sei\n" +
                                 "È strano sai\n" +
@@ -4380,7 +4325,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Sei tu\n" +
                                 "Sei tu\n" +
                                 "Sei tu\n" +
-                                "Sei tu"));
+                                "Sei tu",""));
                         arrayCanzoni.add(new Canzone("Zoe","Io non dormo mai\n" +
                                 "Dormo in me\n" +
                                 "Scuse solide\n" +
@@ -4424,7 +4369,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Su di te\n" +
                                 "Te\n" +
                                 "Te\n" +
-                                "Te\n"));
+                                "Te\n",""));
                         arrayCanzoni.add(new Canzone("Bambina in nero","Lei si consuma su di me\n" +
                                 "Lei si nasconde ma non so dov'è\n" +
                                 "Con le tue ali in coma stai\n" +
@@ -4443,7 +4388,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "E tu sei sola\n" +
                                 "E tu sei sola\n" +
                                 "Tu sei sola\n" +
-                                "E tu sei sola"));
+                                "E tu sei sola",""));
                         arrayCanzoni.add(new Canzone("eyeliner","Vedi blu\n" +
                                 "E ti senti fragile\n" +
                                 "Ora, sgomma\n" +
@@ -4476,7 +4421,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Incolla, uh\n" +
                                 "Incolla, incolla\n" +
                                 "Incolla, incolla\n" +
-                                "Incolla, yeah"));
+                                "Incolla, yeah",""));
                         arrayCanzoni.add(new Canzone("Bonne Nouvelle","Ora che... ora... ti senti ok\n" +
                                 "Un grido in più\n" +
                                 "E poi tu... non ci sei più\n" +
@@ -4516,14 +4461,14 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "\n" +
                                 "Mi sento strano e non vorrei\n" +
                                 "\n" +
-                                "Ok... ok... ok... ok\n"));
+                                "Ok... ok... ok... ok\n",""));
                         arrayCanzoni.add(new Canzone("Ormogenia","Affogami dentro te\n" +
                                 "Io non ho mai un po’ di me\n" +
                                 "Bruciami, stai con me\n" +
                                 "Con me (x5)\n" +
                                 "Affogami dentro te\n" +
                                 "Io non ho mai un po’ di me\n" +
-                                "Con te (x33)\n"));
+                                "Con te (x33)\n","“Ormogenia” è l'unico brano della discografia del gruppo ad essere cantato dalla bassista Roberta Sammarelli.\n\nÈ stata pubblicata inizialmente sono nella versione in vinile dell'album e in seguito inserita nella ristampa del 2019.\n"));
                         arrayCanzoni.add(new Canzone("Corpi","Collo\n" +
                                 "Così amabile\n" +
                                 "Solo\n" +
@@ -4548,8 +4493,8 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Triste\n" +
                                 "Triste\n" +
                                 "Triste\n" +
-                                "Triste\n"));
-                        arrayCanzoni.add(new Canzone("Da Giordi","[Strumentale]"));
+                                "Triste\n",""));
+                        arrayCanzoni.add(new Canzone("Da Giordi","[Strumentale]",""));
                         arrayCanzoni.add(new Canzone("Fiato Adolescenziale","Eh, scimmie, non mi frega vivere\n" +
                                 "Succhiandomi, io non devo esigere\n" +
                                 "Carne, bamboline stitiche\n" +
@@ -4581,17 +4526,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Guardami come puoi\n" +
                                 "Io non so più perdere\n" +
                                 "Eh\n" +
-                                "Ehi, fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Fuori me\n" +
-                                "Uh, uhuh, la la\n" +
-                                "Eh, ihih, la la\n" +
-                                "Uh, uhuh, lala, mi"));
+                                "Ehi, fuori me\nFuori me\nFuori me\nFuori me\nFuori me\nFuori me\nFuori me\nFuori me\nUh, uhuh, la la\nEh, ihih, la la\nUh, uhuh, lala, mi",""));
                         arrayCanzoni.add(new Canzone("Oggi","No, non sono io\n" +
                                 "È un ricordo di attimi e guai\n" +
                                 "Mi viene facile\n" +
@@ -4606,7 +4541,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Oggi io non\n" +
                                 "Oggi io non so\n" +
                                 "Sono\n" +
-                                "Sono\n"));
+                                "Sono\n",""));
                         arrayCanzoni.add(new Canzone("Fuxia (Acoustic Version)","Eroina fertile\n" +
                                 "Vincerai tu\n" +
                                 "Suicida isterico\n" +
@@ -4636,7 +4571,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Non lo so\n" +
                                 "Non lo so\n" +
                                 "\n" +
-                                "Dove sei (x17)"));
+                                "Dove sei (x17)",""));
                         arrayCanzoni.add(new Canzone("Ormogenia (Demo)","Affogami dentro te\n" +
                                 "Io non ho mai un po’ di me\n" +
                                 "Bruciami, stai con me\n" +
@@ -4662,7 +4597,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Con me\n" +
                                 "Woah\n" +
                                 "\n" +
-                                "Affogami dentro te"));
+                                "Affogami dentro te",""));
                         arrayCanzoni.add(new Canzone("Piuma","Non c'è più un'immagine\n" +
                                 "Ma sento che la vorrei con me\n" +
                                 "Lo sai che c'è\n" +
@@ -4690,7 +4625,7 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Dentro me\n" +
                                 "Dentro me\n" +
                                 "Dentro me\n" +
-                                "Dentro me"));
+                                "Dentro me",""));
                         arrayCanzoni.add(new Canzone("Shika (Live)","Anche se lei non c'è\n" +
                                 "Io mi sento ok\n" +
                                 "Perché dove è lei è così difficile\n" +
@@ -4703,33 +4638,32 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumAdapter.MyViewHolder
                                 "Io mi sento ok\n" +
                                 "Perché dove è lei è così difficile\n" +
                                 "È così difficile\n" +
-                                "È così difficile\n"));
+                                "È così difficile\n",""));
                         break;
                     case 19:
-                        arrayCanzoni.add(new Canzone("BRAZIL (Abisso)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Bramante)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (Carnitas)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Nottambula)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Lullaby (Vs. 2)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Dubbi)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (Trista Processione)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (Bambola A Gas)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Stagno Brado","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (Papani)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Cenicero)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (D2)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Charogne)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Exepto)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (Rogorifero)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Zz)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Brazil (Chitarrorista)","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Lullaby","[Strumentale]"));
-                        arrayCanzoni.add(new Canzone("Scintillatore (Kurt Cobain)","[Strumentale]"));
+                        arrayCanzoni.add(new Canzone("BRAZIL (Abisso)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Bramante)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (Carnitas)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Nottambula)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Lullaby (Vs. 2)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Dubbi)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (Trista Processione)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (Bambola A Gas)","[Strumentale]","“SCINTILLATORE (Bambola a gas)” è il primo brano inedito rilasciato dai Verdena dall'uscita dei due volumi dell'album Endkadenz, pubblicati nel 2015.\n\nSi tratta di una traccia strumentale, dalle sonorità stoner rock, composta dal gruppo come parte della colonna sonora da loro realizzata per il film dei fratelli D'Innocenzo, America Latina, uscito nelle sale lo stesso giorno della pubblicazione del pezzo.\n\nLa copertina è tratta da una scena del film: un campo lungo sul protagonista della storia, interpretato da Elio Germano, assieme ai suoi cani.\n"));
+                        arrayCanzoni.add(new Canzone("Stagno Brado","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (Papani)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Cenicero)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (D2)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Charogne)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Exepto)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (Rogorifero)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Zz)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Brazil (Chitarrorista)","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Lullaby","[Strumentale]",""));
+                        arrayCanzoni.add(new Canzone("Scintillatore (Kurt Cobain)","[Strumentale]",""));
                         break;
                 }
                 Intent intent = new Intent(mContext,CanzoniActivity.class);
-                intent.putExtra("arrayCanzoni",arrayCanzoni);
-                mContext.startActivity(intent);
+                mContext.startActivity(intent.putExtra("arrayCanzoni",arrayCanzoni));
             });
         }
     }
