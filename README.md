@@ -1,40 +1,8 @@
 # VerdenaLyrics
+__Questi sono i sorgenti per il progetto "Verdena Lyrics", un progetto personale costruito su tre livelli: un sito in versione [statica](https://verdenalyrics.netlify.app) (boostrap,html,css,JS), un sito in versione [dinamica](https://verdenalyricsdinamic.000webhostapp.com/) (php,SQL) e un app per Android scritta in Java presentata tramite un [video tutorial](https://www.youtube.com/watch?v=MPXRqSRF6M0&t=906s) sul mio [canale YouTube](https://www.youtube.com/channel/UCuLw0RctcWgB8rREj6qgs8A)__
 
-Sorgenti per [Verdena Lyrics](https://verdenalyrics.netlify.app)
-
-# Changelog
-
-Version: 2.2.1
-  - Updated Bootstrap to version 4.6.0
-  - Updated all outdated third party vendor libraries to their latest versions
-
-Version: 2.2.0
-  - Updated Bootstrap to version 4.5.3
-  - Updated all outdated third party vendor libraries to their latest versions
-  - Updated the PHP Email Form to v2.3
-  - Other small fixes and improvements
-
-Version: 2.1.0
-  - Updated Bootstrap to version 4.5.0
-  - Updated the PHP Email Form library to version 2.0 with reCaptcha support
-  - Aded inner-page.html tempalte
-  - Added smooth scroll on page load with hash links in the url
-  - Updated all outdated third party vendor libraries to their latest versions
-  - Other small fixes and improvements
-
-Version: 2.0.0
-  - The template was rebuilt from scratch with the latest Bootstrap version (4.4.1)
-  - Added SMPTP support for the contact form script (Pro)
-  - Added NodeJS NPM Development version (Pro unlimited & Membership members)
-
-Version: 1.0.0
-- Initial Release
-
-# Readme
-
-Thanks for downloading this template!
-
-Template Name: Day<br />
-Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/<br />
-Author: BootstrapMade.com<br />
-License: https://bootstrapmade.com/license/<br />
+# Link utili
+- [Template utilizzato per il sito](https://bootstrapmade.com/day-multipurpose-html-template-for-free/)<br />
+- [Netlify](https://netlify.app/)<br />
+- [000webhost](https://www.000webhost.com/)<br />
+- [pubblicare siti dinamici gratuitamente](https://youtu.be/IuuoiR0mgJA)<br />
