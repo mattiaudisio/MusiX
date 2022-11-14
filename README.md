@@ -1,4 +1,4 @@
-# VerdenaLyrics
+# Verdena Lyrics
 __Questi sono i sorgenti per il progetto "Verdena Lyrics", un progetto personale costruito su tre livelli: un sito in versione [statica](https://verdenalyrics.netlify.app/index.html) (boostrap,html,css,JS), un sito in versione [dinamica](http://verdenalyrics.altervista.org/index.php) (php,SQL) e un [app per Android](https://github.com/mattiaudisio/verdenalyrics-android) scritta in Java presentata tramite un [video tutorial](https://www.youtube.com/watch?v=WiWBWVgrXvY) sul mio [canale YouTube](https://www.youtube.com/channel/UCdoga4BQsPGabAhT0-xZbIQ)__
 
 # Avvertenza (13/11/2022)
