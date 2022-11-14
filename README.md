@@ -4,7 +4,7 @@ __Questi sono i sorgenti per il progetto "Verdena Lyrics", un progetto personale
 # Avvertenza (13/11/2022)
 Dopo diverso tempo ho deciso di chiudere il sito dinamico e di cancellare l'account 000webhost (Alla fine non è che mi ci sia trovato chissà quanto bene) per esplorare altre possibilità. A sto punto ho deciso di dividere il progetto in 3 parti principali:
   - [Sito statico](https://verdenalyrics.netlify.app/index.html) (Provato prima su [Vercel](https://vercel.com) poi anche su [Netlify](https://app.netlify.com/) dove si trovava originariamente)
-  - [Sito dinamico]() (Caricato su [Altervista](https://it.altervista.org/crea-sito-gratis.php) utilizzando l'hosting con file manager)
+  - [Sito dinamico](http://verdenalyrics.altervista.org/index.php) (Caricato su [Altervista](https://it.altervista.org/crea-sito-gratis.php) utilizzando l'hosting con file manager)
   - [App Android](https://github.com/mattiaudisio/verdenalyrics-android) (Disponibile via APK oppure come repository su [Github](https://github.com/mattiaudisio/verdenalyrics-android))
 
 # Link utili
