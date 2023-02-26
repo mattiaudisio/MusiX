@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestoActivity"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/zonaImmagine">
+        <TextView
+            android:id="@+id/nomeCanzone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingRight="2dp"
+            android:paddingLeft="2dp"
+            android:scrollHorizontally="true"
+            android:textColor="#2d2d2d"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/testoCanzone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zonaImmagine"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/zonaAbout"
+        android:paddingTop="20dp"
+        android:layout_below="@id/testoCanzone">
+
+        <TextView
+            android:id="@+id/About"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:scrollHorizontally="true"
+            android:text="About"
+            android:textColor="#2d2d2d"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+        <TextView
+            android:id="@+id/infoAbout"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/About"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            tools:ignore="MissingConstraints" />
+    </RelativeLayout>
+
+</RelativeLayout>
