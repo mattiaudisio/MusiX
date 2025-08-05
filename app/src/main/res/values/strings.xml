@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusiX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verdena_lyrics_name">Verdena Lyrics</string>
+    <string name="todo">TODO</string>
+    <string name="album_name">Album Name</string>
+    <string name="anno_uscita">anno uscita</string>
+</resources>
