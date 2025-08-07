@@ -14,7 +14,7 @@ Autore del corso: [Programmity](https://www.youtube.com/@Programmity)
 
 ## 📱 Download APK
 
-Scarica direttamente l'[APK](https://raw.githubusercontent.com/mattiaudisio/MusiX/refs/heads/main/app-debug.apk) dell'app per installarla sul tuo dispositivo Android:
+Scarica direttamente l'[APK](https://github.com/mattiaudisio/MusiX/raw/refs/heads/main/app-debug.apk) dell'app per installarla sul tuo dispositivo Android:
 
 ➡️ Clicca qui per scaricare l'APK
 
